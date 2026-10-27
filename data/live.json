@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-27T13:23:04.969Z",
+  "scheduleKST": "매일 오전 7:00 (GitHub 실행 지연 가능)",
+  "source": "Yahoo Finance 공개 API · 비공식, 서비스 보장 없음",
+  "stocks": {
+    "NVDA": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 216,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 210.9600067138672,
+        "changePct": 2.3890752397295545,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/NVDA/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-07-31",
+        "revenue": 96221000000,
+        "quarterEPS": 2.46,
+        "revenueYoY": 1.0585114348672526,
+        "operatingMargin": 0.6623710000935347,
+        "marginChangePP": 5.3937651784697005,
+        "operatingCashFlow": 24077000000,
+        "capex": 2677000000,
+        "fcfProxy": 21400000000,
+        "ttmEPS": 7.91,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 24147000000,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/NVDA/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호"
+        ]
+      }
+    },
+    "AVGO": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 329.17,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 321.67999267578125,
+        "changePct": 2.3284073994313426,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/AVGO/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-07-31",
+        "revenue": 29591000000,
+        "quarterEPS": 2.68,
+        "revenueYoY": 0.8550025075225678,
+        "operatingMargin": 0.5426649994930891,
+        "marginChangePP": 16.189769758737192,
+        "operatingCashFlow": 14197000000,
+        "capex": 532000000,
+        "fcfProxy": 13665000000,
+        "ttmEPS": 7.84,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 4774000000,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/AVGO/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호"
+        ]
+      }
+    },
+    "META": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 630.56,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 642.6199951171875,
+        "changePct": -1.8766919252791836,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/META/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-09-30",
+        "revenue": 64601000000,
+        "quarterEPS": 3.83,
+        "revenueYoY": 0.2607041099098395,
+        "operatingMargin": 0.2010495193572855,
+        "marginChangePP": -19.96959628643296,
+        "operatingCashFlow": 32785000000,
+        "capex": 33942000000,
+        "fcfProxy": -1157000000,
+        "ttmEPS": 29.31,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 2548377716,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/META/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": true,
+        "isNew": false,
+        "revised": false,
+        "label": "시나리오 재검토",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호",
+          "영업이익률 전년 대비 3%p 이상 하락",
+          "분기 OCF−설비투자 음수: 현금 회수 확인"
+        ]
+      }
+    },
+    "AMZN": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [
+        "실적: 최초 리서치보다 오래된 재무자료: 공급자 반영 지연"
+      ],
+      "quote": {
+        "close": 249.09,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 248,
+        "changePct": 0.4395146523752613,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/AMZN/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-06-30",
+        "ttmEPS": 12.44,
+        "epsMethod": "최초 리서치 TTM GAAP EPS · 자동 공급자 반영 지연",
+        "status": "stale",
+        "source": "최초 리서치 확인 값",
+        "sourceUrl": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+        "fetchedAt": "2026-10-26T00:00:00Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "자동 점검 범위에서 신규 경고 없음"
+        ]
+      }
+    },
+    "COHR": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 221.5,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 209.2899932861328,
+        "changePct": 5.834013620122858,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/COHR/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-06-30",
+        "revenue": 2045533000,
+        "quarterEPS": 1.19,
+        "revenueYoY": 0.33744269129273796,
+        "operatingMargin": 0.14878176005960306,
+        "marginChangePP": 5.398995445283036,
+        "operatingCashFlow": 69456000,
+        "capex": 562855000,
+        "fcfProxy": -493399000,
+        "ttmEPS": 4.12,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 195752792,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/COHR/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호",
+          "분기 OCF−설비투자 음수: 현금 회수 확인"
+        ]
+      }
+    },
+    "VRT": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 199.78,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 194.32000732421875,
+        "changePct": 2.809793767642388,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/VRT/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-06-30",
+        "revenue": 3274300000,
+        "quarterEPS": 1.27,
+        "revenueYoY": 0.2411584094613548,
+        "operatingMargin": 0.19482026692728216,
+        "marginChangePP": 2.5531763837937564,
+        "operatingCashFlow": 1099800000,
+        "capex": 174500000,
+        "fcfProxy": 925300000,
+        "ttmEPS": 4.42,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 384936985,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/VRT/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호"
+        ]
+      }
+    },
+    "GOOGL": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 316.8,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 320.2099914550781,
+        "changePct": -1.064927314295805,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/GOOGL/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-06-30",
+        "revenue": 119796000000,
+        "quarterEPS": 9.11,
+        "revenueYoY": 0.2423362508814868,
+        "operatingMargin": 0.3403285585495342,
+        "marginChangePP": 1.6034784956801773,
+        "operatingCashFlow": 39069000000,
+        "capex": 44924000000,
+        "fcfProxy": -5855000000,
+        "ttmEPS": 19.93,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 12229934831,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/GOOGL/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호",
+          "분기 OCF−설비투자 음수: 현금 회수 확인"
+        ]
+      }
+    },
+    "MSFT": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 532.6,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 524.510009765625,
+        "changePct": 1.5423854015536254,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/MSFT/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-06-30",
+        "revenue": 90007000000,
+        "quarterEPS": 4.81,
+        "revenueYoY": 0.17747020577962092,
+        "operatingMargin": 0.4511093581610319,
+        "marginChangePP": 0.2096393914096384,
+        "operatingCashFlow": 55441000000,
+        "capex": 35802000000,
+        "fcfProxy": 19639000000,
+        "ttmEPS": 17.96,
+        "epsMethod": "최근 4개 분기 희석 EPS 합계(근사)",
+        "shares": 7427000000,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/MSFT/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "자동 점검 범위에서 신규 경고 없음"
+        ]
+      }
+    },
+    "LRCX": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 237.5,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 230.10000610351562,
+        "changePct": 3.2159903086466324,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/LRCX/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-09-30",
+        "revenue": 8219418000,
+        "quarterEPS": 2.19,
+        "revenueYoY": 0.5437924349941297,
+        "operatingMargin": 0.3995084566814828,
+        "marginChangePP": 5.59643982896913,
+        "operatingCashFlow": 3497652000,
+        "capex": 257697000,
+        "fcfProxy": 3239955000,
+        "ttmEPS": 6.71,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 1251424362,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/LRCX/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호"
+        ]
+      }
+    },
+    "ETN": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 371.92,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 366.1099853515625,
+        "changePct": 1.5869624726549514,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/ETN/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-06-30",
+        "revenue": 8531000000,
+        "quarterEPS": 2.11,
+        "revenueYoY": 0.21385885031303364,
+        "operatingMargin": 0.16316961669206423,
+        "marginChangePP": -1.55440998702579,
+        "operatingCashFlow": 1127000000,
+        "capex": 253000000,
+        "fcfProxy": 874000000,
+        "ttmEPS": 9.82,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 388400000,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/ETN/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호"
+        ]
+      }
+    },
+    "MU": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 903.7,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 877.5499877929688,
+        "changePct": 2.9798900094374803,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/MU/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-08-31",
+        "revenue": 54229000000,
+        "quarterEPS": 32.87,
+        "revenueYoY": 3.7926646045072916,
+        "operatingMargin": 0.8067823489276955,
+        "marginChangePP": 48.04014386316283,
+        "operatingCashFlow": 43973000000,
+        "capex": 11110000000,
+        "fcfProxy": 32863000000,
+        "ttmEPS": 74.33,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 1131000000,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/MU/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": false,
+        "isNew": false,
+        "revised": false,
+        "label": "추적 중",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호"
+        ]
+      }
+    },
+    "LITE": {
+      "checkedAt": "2026-10-27T13:23:04.969Z",
+      "errors": [],
+      "quote": {
+        "close": 818.1,
+        "date": "2026-10-26",
+        "currency": "USD",
+        "previousClose": 756.1699829101562,
+        "changePct": 8.189956501240726,
+        "splitFactor": 1,
+        "source": "Yahoo Finance 공개 일별 시세",
+        "sourceUrl": "https://finance.yahoo.com/quote/LITE/history/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z",
+        "status": "ok"
+      },
+      "financials": {
+        "period": "2026-06-30",
+        "revenue": 1006300000,
+        "quarterEPS": -84.65,
+        "revenueYoY": 1.0934054503848554,
+        "operatingMargin": 0.2799364006757428,
+        "marginChangePP": 28.65933592777815,
+        "operatingCashFlow": 363000000,
+        "capex": 166800000,
+        "fcfProxy": 196200000,
+        "ttmEPS": -92.96,
+        "epsMethod": "공급자 TTM 희석 EPS",
+        "shares": 88600000,
+        "source": "Yahoo Finance 공개 재무 시계열",
+        "currency": "USD",
+        "status": "ok",
+        "sourceUrl": "https://finance.yahoo.com/quote/LITE/financials/",
+        "fetchedAt": "2026-10-27T13:23:04.969Z"
+      },
+      "impact": {
+        "review": true,
+        "isNew": false,
+        "revised": false,
+        "label": "시나리오 재검토",
+        "reasons": [
+          "매출 20% 이상 성장: 성장 가설 지지 신호",
+          "TTM 적자·무이익: 실적 PER 산정 불가"
+        ]
+      }
+    }
+  },
+  "events": [],
+  "health": {
+    "quotes": 12,
+    "financials": 11,
+    "total": 12,
+    "errors": [
+      "AMZN 실적: 최초 리서치보다 오래된 재무자료: 공급자 반영 지연"
+    ],
+    "status": "partial"
+  }
+}

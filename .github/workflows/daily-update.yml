@@ -1,0 +1,61 @@
+name: Daily data and Pages deployment
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'src/**'
+      - 'tests/**'
+      - '.github/workflows/daily-update.yml'
+      - 'package.json'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: daily-data-pages
+  cancel-in-progress: false
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Test financial data handling
+        run: npm test
+      - name: Refresh public daily data
+        run: npm run update
+      - name: Build report
+        run: npm run build
+      - name: Save data snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live.json index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Update daily prices and financial review status"
+            git push origin HEAD:main
+          fi
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report complete data outage
+        run: |
+          node -e "const d=require('./data/live.json');if(d.health.quotes===0||d.health.financials===0){console.error('Data provider outage; previous values retained and marked.');process.exit(1)}"

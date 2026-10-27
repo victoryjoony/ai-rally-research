@@ -1,0 +1,1 @@
+{"name":"ai-rally-research","private":true,"type":"module","scripts":{"update":"node scripts/update-live.mjs","build":"node scripts/build.mjs","test":"node --test tests/*.test.mjs"},"engines":{"node":">=22"}}
