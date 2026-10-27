@@ -23,7 +23,7 @@ for(const s of report.stocks){
 }
 const unique=[...new Set(dates)];report.priceDate=unique.length===1?unique[0]:'종목별 기준일';
 let template=await fs.readFile(path.join(ROOT,'src/template.html'),'utf8');
-for(const [marker,name] of [['/*__LIVE_CSS__*/','live.css'],['<!--__LIVE_PANEL__-->','live-panel.html'],['/*__DAILY_UI__*/','daily-ui.js']]){
+for(const [marker,name] of [['/*__LIVE_CSS__*/','live.css'],['<!--__LIVE_PANEL__-->','live-panel.html'],['<!--__PHYSICAL_AI__-->','physical-ai.html'],['/*__DAILY_UI__*/','daily-ui.js']]){
  if(!template.includes(marker))throw new Error('Missing source marker: '+name);
  template=template.replace(marker,await fs.readFile(path.join(ROOT,'src',name),'utf8'));
 }
