@@ -58,13 +58,18 @@ export function normalizeFinancials(payload) {
     }
   }
   const shares=at('quarterlyOrdinarySharesNumber');
+  const four=revenues.filter(x=>x.date<=date).slice(-4);
+  const contiguous=four.length===4&&four.every((x,i)=>!i||(daysBetween(four[i-1].date,x.date)>=65&&daysBetween(four[i-1].date,x.date)<=115));
+  const ttmRevenue=contiguous?four.reduce((n,x)=>n+x.value,0):null;
+  const ops=four.map(x=>at('quarterlyOperatingIncome',x.date));
+  const ttmOperatingMargin=ttmRevenue>0&&ops.every(finite)?ops.reduce((a,b)=>a+b,0)/ttmRevenue:null;
   return {period:date,revenue:current.value,quarterEPS:at('quarterlyDilutedEPS'),
     revenueYoY:prior&&prior.value>0?current.value/prior.value-1:null,
     operatingMargin:finite(op)?op/current.value:null,
     marginChangePP:prior&&finite(oldOp)&&finite(op)?(op/current.value-oldOp/prior.value)*100:null,
     operatingCashFlow:ocf,capex:finite(capex)?Math.abs(capex):null,
     fcfProxy:finite(ocf)&&finite(capex)?ocf-Math.abs(capex):null,
-    ttmEPS:ttm,epsMethod,shares:finite(shares)&&shares>0?shares:null,
+    ttmEPS:ttm,epsMethod,ttmRevenue,ttmOperatingMargin,shares:finite(shares)&&shares>0?shares:null,
     source:'Yahoo Finance 공개 재무 시계열',currency:'USD',status:'ok'};
 }
 export function assessImpact(stock, previous, current, baselineAsOf, now=new Date()){

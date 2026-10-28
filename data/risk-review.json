@@ -1,9 +1,89 @@
 {
- "schemaVersion":1,
- "lastFullReviewAt":null,
- "status":"initial_full_review_pending",
- "trackedCount":20,
- "scheduleKST":"매일 오전 7시 · 로컬 조사 실행 환경 필요",
- "partialReviews":[{"ticker":"FLNC","reviewDateKST":"2026-10-28","scope":"9/16 가이던스 재하향, 과거 내부통제·Siemens Energy 분쟁 및 관련 의혹의 구분","sources":["https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-energy-announces-revised-guidance-fiscal-year-2026","https://ir.fluenceenergy.com/static-files/62a9a98b-a57f-4143-9cb3-e6a6cc29101b","https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-responds-misleading-short-seller-report"],"result":"기존 저평가 판단 철회·가정 수정. 모든 조작 의혹의 사실 확정이나 전체 기업 조사 완료를 의미하지 않음"}],
- "note":"20개 전체의 최초 일괄 공시·의혹 조사는 아직 완료되지 않았다. 가격/분기 재무 자동 갱신 시각과 구분한다."
+  "schemaVersion": 1,
+  "lastFullReviewAt": null,
+  "status": "initial_full_review_pending",
+  "trackedCount": 26,
+  "scheduleKST": "매일 오전7시 GitHub 서버 · 로컬 예약 중지",
+  "partialReviews": [
+    {
+      "ticker": "FLNC",
+      "reviewDateKST": "2026-10-28",
+      "scope": "9/16 가이던스 재하향, 과거 내부통제·Siemens Energy 분쟁 및 관련 의혹의 구분",
+      "sources": [
+        "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-energy-announces-revised-guidance-fiscal-year-2026",
+        "https://ir.fluenceenergy.com/static-files/62a9a98b-a57f-4143-9cb3-e6a6cc29101b",
+        "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-responds-misleading-short-seller-report"
+      ],
+      "result": "기존 저평가 판단 철회·가정 수정. 모든 조작 의혹의 사실 확정이나 전체 기업 조사 완료를 의미하지 않음"
+    },
+    {
+      "ticker": "CRM",
+      "reviewDateKST": "2026-10-28",
+      "scope": "최신 실적·가치 모형·명시한 회계/법률/사업 위험 초기 검토. 모든 소송/중간 공시 전수 검증 아님",
+      "sources": [
+        "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+      ],
+      "result": "투자평가익 제외 영업이익, AI 유료 매출·동일범위 ARR, 유기적 cRPO, 부채·ASR·주식보상"
+    },
+    {
+      "ticker": "CRWD",
+      "reviewDateKST": "2026-10-28",
+      "scope": "최신 실적·가치 모형·명시한 회계/법률/사업 위험 초기 검토. 모든 소송/중간 공시 전수 검증 아님",
+      "sources": [
+        "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial",
+        "https://ir.crowdstrike.com/node/17391/xbrl-viewer"
+      ],
+      "result": "Falcon 신규 ARR·고객 유지, SBC·희석, 2024 장애 관련 소송과 매출/ARR 관련 DOJ·SEC 정보요청 후속"
+    },
+    {
+      "ticker": "CDNS",
+      "reviewDateKST": "2026-10-28",
+      "scope": "최신 실적·가치 모형·명시한 회계/법률/사업 위험 초기 검토. 모든 소송/중간 공시 전수 검증 아님",
+      "sources": [
+        "https://investor.cadence.com/news/news-details/2026/Cadence-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+        "https://www.justice.gov/nsd/case/united-states-v-cadence-design-systems-inc"
+      ],
+      "result": "반복 매출·RPO 전환, 중국 수출통제·합의 이행, GAAP/조정 차이·인수 무형자산"
+    },
+    {
+      "ticker": "TSM",
+      "reviewDateKST": "2026-10-28",
+      "scope": "최신 실적·가치 모형·명시한 회계/법률/사업 위험 초기 검토. 모든 소송/중간 공시 전수 검증 아님",
+      "sources": [
+        "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+        "https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf",
+        "https://investor.tsmc.com/english/risk-management"
+      ],
+      "result": "2nm·CoWoS 수율/가동률, 해외공장 마진·CAPEX, 대만 지정학·수출통제/제품 우회 의혹 후속"
+    },
+    {
+      "ticker": "GEV",
+      "reviewDateKST": "2026-10-28",
+      "scope": "최신 실적·가치 모형·명시한 회계/법률/사업 위험 초기 검토. 모든 소송/중간 공시 전수 검증 아님",
+      "sources": [
+        "https://www.gevernova.com/news/ge-vernova-reports-strong-third-quarter-2026-financial-performance",
+        "https://www.gevernova.com/news/taxonomy/term/9606"
+      ],
+      "result": "가스터빈/변압기 납품·마진, 선급금 역전·운전자본, 풍력 보증, Trench 종결·차입·이자"
+    },
+    {
+      "ticker": "PWR",
+      "reviewDateKST": "2026-10-28",
+      "scope": "최신 실적·가치 모형·명시한 회계/법률/사업 위험 초기 검토. 모든 소송/중간 공시 전수 검증 아님",
+      "sources": [
+        "https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001193125-26-324855/d56853dex991.htm"
+      ],
+      "result": "10/29 Q3 실적, 백로그 현금 전환·공사원가·인수 통합·순부채·안전/공사 분쟁"
+    },
+    {
+      "ticker": "GOOGL",
+      "reviewDateKST": "2026-10-29",
+      "scope": "2026 Q3 실적발표, 투자증권 손익, 현금흐름·CAPEX·자금조달 및 시나리오 검토. 모든 소송·규제 전수조사 아님.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+      ],
+      "result": "기준 EPS 18→17, PER 23→21. 실적·현금흐름 위험 경고 유지."
+    }
+  ],
+  "note": "전체26개 의혹 전수조사 미완료. 가격/공시 목록 탐지/규칙 민감도와 직접 문맥 검토를 구분한다."
 }

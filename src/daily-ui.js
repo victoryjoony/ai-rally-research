@@ -22,7 +22,7 @@ function renderDaily(){
  $('heroPicks').innerHTML=candidates.length?candidates.map(({s,v})=>'<div class="lead-pick"><div><span class="ticker">'+s.ticker+'</span><small>'+esc(s.sector)+' · '+esc(s.risk)+'</small></div><div class="lead-num">'+(v.discount*100).toFixed(0)+'%<small>현재 모형가치 대비 가격 할인</small></div></div>').join(''):'<p class="note">현재 기본 가정에서 20% 이상 가격 할인 후보가 없습니다.</p>';
  $('daily').addEventListener('click',e=>{const b=e.target.closest('[data-daily-ticker]');if(b)openCoverageStock(b.dataset.dailyTicker);});
  const elapsed=document.createElement('p');elapsed.className='note';
- elapsed.textContent='가정 검토일 '+REPORT.baselineAsOf+' · 목표일 '+REPORT.horizon+' 고정 · 잔여기간 약 '+REPORT.remainingYears.toFixed(2)+'년. 최근 종가로 가치 여력·PER를 재계산하며 기존 조정 예상 EPS와 미래 EPS·PER 가정은 자동 상향하지 않습니다.';
+ elapsed.textContent='가정 검토일 '+REPORT.baselineAsOf+' · 목표일 '+REPORT.horizon+' 고정 · 잔여기간 약 '+REPORT.remainingYears.toFixed(2)+'년. 최근 종가로 가치 여력·PER를 재계산하며 최초 시장 예상 EPS는 보존하며 미래 모형은 서버 규칙 민감도를 적용할 수 있습니다. PER는 자동 변경하지 않습니다.';
  $('screen').insertBefore(elapsed,$('screen').children[1]);
 }
 renderDaily();

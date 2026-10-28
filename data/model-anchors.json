@@ -1,0 +1,422 @@
+{
+  "stocks": {
+    "NVDA": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-07-31",
+      "ttmRevenue": 302969000000,
+      "ttmOperatingMargin": 0.6521426284537362,
+      "models": {
+        "bear": [
+          8,
+          16
+        ],
+        "base": [
+          16,
+          22
+        ],
+        "bull": [
+          21,
+          28
+        ]
+      }
+    },
+    "AVGO": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-07-31",
+      "ttmRevenue": 89104000000,
+      "ttmOperatingMargin": 0.48524196444604056,
+      "models": {
+        "bear": [
+          12,
+          16
+        ],
+        "base": [
+          23,
+          22
+        ],
+        "bull": [
+          30,
+          28
+        ]
+      }
+    },
+    "META": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-09-30",
+      "ttmRevenue": 241606000000,
+      "ttmOperatingMargin": 0.3285514432588595,
+      "models": {
+        "bear": [
+          27,
+          16
+        ],
+        "base": [
+          40,
+          23
+        ],
+        "bull": [
+          48,
+          28
+        ]
+      }
+    },
+    "COHR": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 7118181000,
+      "ttmOperatingMargin": 0.12665061481296977,
+      "models": {
+        "bear": [
+          7,
+          17
+        ],
+        "base": [
+          14,
+          24
+        ],
+        "bull": [
+          19,
+          30
+        ]
+      }
+    },
+    "VRT": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 11479600000,
+      "ttmOperatingMargin": 0.19397017317676574,
+      "models": {
+        "bear": [
+          6,
+          18
+        ],
+        "base": [
+          11,
+          26
+        ],
+        "bull": [
+          14,
+          32
+        ]
+      }
+    },
+    "MSFT": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 331839000000,
+      "ttmOperatingMargin": 0.4678081840892722,
+      "models": {
+        "bear": [
+          18,
+          22
+        ],
+        "base": [
+          25,
+          28
+        ],
+        "bull": [
+          30,
+          33
+        ]
+      }
+    },
+    "LRCX": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-09-30",
+      "ttmRevenue": 26127935000,
+      "ttmOperatingMargin": 0.36950620093015385,
+      "models": {
+        "bear": [
+          7,
+          17
+        ],
+        "base": [
+          12,
+          25
+        ],
+        "bull": [
+          15,
+          30
+        ]
+      }
+    },
+    "ETN": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 30025000000,
+      "ttmOperatingMargin": 0.1770857618651124,
+      "models": {
+        "bear": [
+          13,
+          18
+        ],
+        "base": [
+          19,
+          25
+        ],
+        "bull": [
+          22,
+          30
+        ]
+      }
+    },
+    "MU": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-08-31",
+      "ttmRevenue": 133188000000,
+      "ttmOperatingMargin": 0.7458629906598192,
+      "models": {
+        "bear": [
+          50,
+          7
+        ],
+        "base": [
+          125,
+          9
+        ],
+        "bull": [
+          210,
+          12
+        ]
+      }
+    },
+    "LITE": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 3014000000,
+      "ttmOperatingMargin": 0.1779031187790312,
+      "models": {
+        "bear": [
+          15,
+          17
+        ],
+        "base": [
+          33,
+          26
+        ],
+        "bull": [
+          45,
+          34
+        ]
+      }
+    },
+    "SYM": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 2645760000,
+      "ttmOperatingMargin": 0.012452376632801162,
+      "models": {
+        "bear": {
+          "revenueB": 3.5,
+          "multiple": 2,
+          "netDebtB": -0.5,
+          "sharesB": 0.7
+        },
+        "base": {
+          "revenueB": 5.5,
+          "multiple": 5,
+          "netDebtB": -1,
+          "sharesB": 0.66
+        },
+        "bull": {
+          "revenueB": 8,
+          "multiple": 8,
+          "netDebtB": -2,
+          "sharesB": 0.7
+        }
+      }
+    },
+    "TER": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 4464031000,
+      "ttmOperatingMargin": 0.3085641654370232,
+      "models": {
+        "bear": {
+          "perShare": 7,
+          "multiple": 18
+        },
+        "base": {
+          "perShare": 12,
+          "multiple": 25
+        },
+        "bull": {
+          "perShare": 17,
+          "multiple": 33
+        }
+      }
+    },
+    "TSLA": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-09-30",
+      "ttmRevenue": 103570000000,
+      "ttmOperatingMargin": 0.03502944868205079,
+      "models": {
+        "bear": {
+          "perShare": 2,
+          "multiple": 25
+        },
+        "base": {
+          "perShare": 4,
+          "multiple": 45
+        },
+        "bull": {
+          "perShare": 8,
+          "multiple": 70
+        }
+      }
+    },
+    "EQIX": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 9805000000,
+      "ttmOperatingMargin": 0.23039265680775114,
+      "models": {
+        "bear": {
+          "perShare": 42,
+          "multiple": 17
+        },
+        "base": {
+          "perShare": 52,
+          "multiple": 22
+        },
+        "bull": {
+          "perShare": 62,
+          "multiple": 27
+        }
+      }
+    },
+    "CRWV": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 7589580000,
+      "ttmOperatingMargin": -0.030402077585320927,
+      "models": {
+        "bear": {
+          "revenueB": 12,
+          "multiple": 3,
+          "netDebtB": 65,
+          "sharesB": 0.75
+        },
+        "base": {
+          "revenueB": 20,
+          "multiple": 5,
+          "netDebtB": 70,
+          "sharesB": 0.85
+        },
+        "bull": {
+          "revenueB": 32,
+          "multiple": 7,
+          "netDebtB": 80,
+          "sharesB": 1
+        }
+      }
+    },
+    "FLNC": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 2631864000,
+      "ttmOperatingMargin": -0.04233615414778271,
+      "models": {
+        "bear": {
+          "revenueB": 2.4,
+          "netMargin": 0.005,
+          "sharesB": 0.3,
+          "multiple": 12
+        },
+        "base": {
+          "revenueB": 3.2,
+          "netMargin": 0.015,
+          "sharesB": 0.27,
+          "multiple": 16
+        },
+        "bull": {
+          "revenueB": 4.5,
+          "netMargin": 0.035,
+          "sharesB": 0.27,
+          "multiple": 20
+        }
+      }
+    },
+    "INTC": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 57032000000,
+      "ttmOperatingMargin": 0.0755365408893253,
+      "models": {
+        "bear": {
+          "perShare": 1,
+          "multiple": 12
+        },
+        "base": {
+          "perShare": 2.5,
+          "multiple": 18
+        },
+        "bull": {
+          "perShare": 4,
+          "multiple": 24
+        }
+      }
+    },
+    "CRM": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-07-31",
+      "ttmRevenue": 43938000000,
+      "ttmOperatingMargin": 0.21518958532477583,
+      "models": {
+        "bear": {
+          "perShare": 13,
+          "multiple": 16
+        },
+        "base": {
+          "perShare": 17.5,
+          "multiple": 22
+        },
+        "bull": {
+          "perShare": 22,
+          "multiple": 28
+        }
+      }
+    },
+    "CRWD": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-07-31",
+      "ttmRevenue": 5396145000,
+      "ttmOperatingMargin": -0.02214340052018617,
+      "models": {
+        "bear": {
+          "perShare": 1.4,
+          "multiple": 40
+        },
+        "base": {
+          "perShare": 2.1,
+          "multiple": 65
+        },
+        "bull": {
+          "perShare": 3,
+          "multiple": 95
+        }
+      }
+    },
+    "PWR": {
+      "createdAt": "2026-10-28T13:52:39.878Z",
+      "period": "2026-06-30",
+      "ttmRevenue": 32905140000,
+      "ttmOperatingMargin": 0.061220830545015155,
+      "models": {
+        "bear": {
+          "perShare": 16,
+          "multiple": 18
+        },
+        "base": {
+          "perShare": 22,
+          "multiple": 26
+        },
+        "bull": {
+          "perShare": 28,
+          "multiple": 34
+        }
+      }
+    }
+  }
+}

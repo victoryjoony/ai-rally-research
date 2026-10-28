@@ -38,13 +38,15 @@ jobs:
         run: npm test
       - name: Refresh public daily data
         run: npm run update
+      - name: Server disclosure scan and bounded model sensitivity
+        run: node scripts/server-review.mjs
       - name: Build report
         run: npm run build
       - name: Save data snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/live.json index.html archive.html
+          git add data/*.json index.html archive.html
           if ! git diff --cached --quiet; then
             git commit -m "Update daily prices and financial review status"
             git push origin HEAD:main

@@ -294,6 +294,218 @@
           "multiple": 24
         }
       }
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "sector": "기업용 AI 소프트웨어",
+      "risk": "높음",
+      "asOf": "2026-10-28",
+      "scenarioReviewedPeriod": "2026-07-31",
+      "gaapEPS": null,
+      "modelKind": "per-share",
+      "metric": "정상화 조정 EPS",
+      "primary": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx",
+      "primaryDate": "2026-08-26",
+      "fact": "FY27 Q2 매출 $11.3B, cRPO $33.5B. 조정 EPS $5.90에는 투자자산 이익 $2.53/주가 포함돼 반복 영업이익과 구분한다. Agentforce ARR의 포함 범위도 확대됐다.",
+      "anchor": "FY27 조정 EPS 가이던스 $16.67~16.71에서 상반기 투자이익 기여를 제거한 약 $13.7 수준을 정상화 참고점으로 사용한다. 2028 EPS $13/17.5/22는 유기적 성장·AI 유료전환·희석을 반영한 분석 가정이다.",
+      "rationale": "PER 16/22/28배. 기존 CRM 현금창출은 긍정적이나 AI가 좌석 매출을 대체할 위험, SBC와 인수 통합 비용을 고려한다. 조정 EPS에서 제외한 SBC는 현금이 아니어도 주주 비용이다.",
+      "watch": "투자평가익 제외 영업이익, AI 유료 매출·동일범위 ARR, 유기적 cRPO, 부채·ASR·주식보상",
+      "models": {
+        "bear": {
+          "perShare": 13,
+          "multiple": 16
+        },
+        "base": {
+          "perShare": 17.5,
+          "multiple": 22
+        },
+        "bull": {
+          "perShare": 22,
+          "multiple": 28
+        }
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "사이버보안",
+      "risk": "높음",
+      "asOf": "2026-10-28",
+      "scenarioReviewedPeriod": "2026-07-31",
+      "gaapEPS": null,
+      "modelKind": "per-share",
+      "metric": "정상화 조정 EPS",
+      "primary": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial",
+      "primaryDate": "2026-08-26",
+      "fact": "FY27 매출 가이던스 약 $6.0B, 분할 후 조정 EPS $1.25~1.26. 2026.07.01 4대1 분할을 반영한 주당 수치다. GAAP 이익과 조정 이익의 차이가 크다.",
+      "anchor": "FY27 조정 EPS 중간값 $1.255 대비 2028 EPS $1.4/2.1/3.0. 기준도 약 2년 동안 누적 67% 이익 성장을 요구한다. 주식분할 이전 EPS를 현재 가격과 혼합하지 않는다.",
+      "rationale": "PER 40/65/95배로 높은 성장 프리미엄을 허용해도 현재 가격에 높은 기대가 반영됐는지 역산한다. SBC·소송 비용을 제외한 배수이므로 더 보수적인 GAAP와 FCF/희석 비교도 필요하다.",
+      "watch": "Falcon 신규 ARR·고객 유지, SBC·희석, 2024 장애 관련 소송과 매출/ARR 관련 DOJ·SEC 정보요청 후속",
+      "models": {
+        "bear": {
+          "perShare": 1.4,
+          "multiple": 40
+        },
+        "base": {
+          "perShare": 2.1,
+          "multiple": 65
+        },
+        "bull": {
+          "perShare": 3,
+          "multiple": 95
+        }
+      },
+      "riskReview": {
+        "asOf": "2026-10-28",
+        "label": "공시·법률위험 확인",
+        "reasons": [
+          "7월 장애 관련 Delta 소송과 매출/ARR 관련 DOJ·SEC 정보요청 공시. 일부 사건 기각과 나머지 진행을 구분하며 위법 확정으로 해석하지 않음"
+        ]
+      },
+      "riskSources": [
+        "https://ir.crowdstrike.com/node/17391/xbrl-viewer"
+      ]
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence Design Systems",
+      "sector": "반도체 설계·EDA/IP",
+      "risk": "높음",
+      "asOf": "2026-10-28",
+      "scenarioReviewedPeriod": "2026-09-30",
+      "gaapEPS": null,
+      "modelKind": "per-share",
+      "metric": "정상화 조정 EPS",
+      "primary": "https://investor.cadence.com/news/news-details/2026/Cadence-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+      "primaryDate": "2026-10-26",
+      "fact": "Q3 매출 $1.633B, 조정 EPS $2.11. FY26 조정 EPS 전망 $8.37~8.43. 칩 설계·검증과 첨단 패키징 수요에 노출된다.",
+      "anchor": "FY26 조정 EPS $8.40에서 목표일 EPS $8.5/11.5/14. 기준은 2년 연 약 17% 성장, 강세는 약 29% 성장을 요구한다.",
+      "rationale": "PER 25/35/45배. 반복 설계 수요와 IP 가치에 프리미엄을 주지만 AI 생산성으로 도구 가격/좌석이 변할 위험과 수출통제 부담을 반영한다. 2025년 수출통제 관련 유죄 인정 합의·벌금은 단순 소문이 아니다.",
+      "watch": "반복 매출·RPO 전환, 중국 수출통제·합의 이행, GAAP/조정 차이·인수 무형자산",
+      "models": {
+        "bear": {
+          "perShare": 8.5,
+          "multiple": 25
+        },
+        "base": {
+          "perShare": 11.5,
+          "multiple": 35
+        },
+        "bull": {
+          "perShare": 14,
+          "multiple": 45
+        }
+      },
+      "riskSources": [
+        "https://www.justice.gov/nsd/case/united-states-v-cadence-design-systems-inc"
+      ]
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC ADR",
+      "sector": "반도체 제조·첨단 패키징",
+      "risk": "높음",
+      "asOf": "2026-10-28",
+      "scenarioReviewedPeriod": "2026-09-30",
+      "gaapEPS": null,
+      "modelKind": "per-share",
+      "metric": "정상화 조정 EPS",
+      "primary": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+      "primaryDate": "2026-10-15",
+      "fact": "Q3 USD 매출 $46.72B, ADR당 EPS $4.60, 영업마진 58.7%. 미국 상장 ADR이며 대만 보통주 EPS NT$29.43와 단위가 다르다.",
+      "anchor": "Q3 ADR EPS 연환산 $18.40은 계절성을 무시한 참고점이다. 목표일 ADR EPS $16/23/29로 수율·해외공장 비용·환율·사이클을 반영한다.",
+      "rationale": "PER 16/22/28배. 선단공정·패키징 경쟁력을 인정하되 대만 지정학과 높은 CAPEX를 할인한다. 반도체 설계사와 중복된 AI 수요 위험이며 배당·ADR 수수료는 가격 수익 계산에서 제외한다.",
+      "watch": "2nm·CoWoS 수율/가동률, 해외공장 마진·CAPEX, 대만 지정학·수출통제/제품 우회 의혹 후속",
+      "models": {
+        "bear": {
+          "perShare": 16,
+          "multiple": 16
+        },
+        "base": {
+          "perShare": 23,
+          "multiple": 22
+        },
+        "bull": {
+          "perShare": 29,
+          "multiple": 28
+        }
+      },
+      "riskSources": [
+        "https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf",
+        "https://investor.tsmc.com/english/risk-management"
+      ]
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "sector": "발전설비·전력망 장비",
+      "risk": "높음",
+      "asOf": "2026-10-28",
+      "scenarioReviewedPeriod": "2026-09-30",
+      "gaapEPS": null,
+      "modelKind": "net-margin",
+      "metric": "정상화 순이익",
+      "primary": "https://www.gevernova.com/news/ge-vernova-reports-strong-third-quarter-2026-financial-performance",
+      "primaryDate": "2026-10-28",
+      "fact": "오늘 Q3 실적과 연간 전망 상향 발표: FY26 매출 $46.5~47.5B. 발전·전력망 장비 수요와 서비스 매출에 노출된다. 장중 실적 발표 후 가격은 아직 전일 종가다.",
+      "anchor": "2028 매출 $50/65/80B, 순마진 7/11/14%, 경제적 희석주식수 .280/.265/.250B. 기준 EPS 약 $26.98. 고객 선급금이 많은 FCF를 영구 이익으로 자본화하지 않는다.",
+      "rationale": "PER 20/28/35배. 매출×세후 순마진÷희석주식수로 계산하며 EBITDA 마진을 순마진으로 혼용하지 않는다. 풍력 실행손실과 보증, $9B Trench 인수의 차입·통합 부담을 반영한다.",
+      "watch": "가스터빈/변압기 납품·마진, 선급금 역전·운전자본, 풍력 보증, Trench 종결·차입·이자",
+      "models": {
+        "bear": {
+          "revenueB": 50,
+          "netMargin": 0.07,
+          "sharesB": 0.28,
+          "multiple": 20
+        },
+        "base": {
+          "revenueB": 65,
+          "netMargin": 0.11,
+          "sharesB": 0.265,
+          "multiple": 28
+        },
+        "bull": {
+          "revenueB": 80,
+          "netMargin": 0.14,
+          "sharesB": 0.25,
+          "multiple": 35
+        }
+      },
+      "riskSources": [
+        "https://www.gevernova.com/news/taxonomy/term/9606"
+      ]
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "sector": "송전망·전력 인프라 공사",
+      "risk": "높음",
+      "asOf": "2026-10-28",
+      "scenarioReviewedPeriod": "2026-06-30",
+      "gaapEPS": null,
+      "modelKind": "per-share",
+      "metric": "정상화 조정 EPS",
+      "primary": "https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001193125-26-324855/d56853dex991.htm",
+      "primaryDate": "2026-07-30",
+      "fact": "Q2 매출 $9.56B, 조정 EPS $4.24. FY26 조정 EPS 전망 $16.45~16.95. 송전·배전·데이터센터 시공에 참여하나 AI 순수 기업은 아니다.",
+      "anchor": "FY26 조정 EPS 중간값 $16.70 대비 2028 $16/22/28. 기준은 연 약 15% 성장으로 인수 편입과 유기적 성장을 구분해야 한다.",
+      "rationale": "PER 18/26/34배. 장기 전력망 투자·시공 역량을 인정하지만 고정가 계약·인건비·인수 상각/차입 위험을 반영한다.",
+      "watch": "10/29 Q3 실적, 백로그 현금 전환·공사원가·인수 통합·순부채·안전/공사 분쟁",
+      "models": {
+        "bear": {
+          "perShare": 16,
+          "multiple": 18
+        },
+        "base": {
+          "perShare": 22,
+          "multiple": 26
+        },
+        "bull": {
+          "perShare": 28,
+          "multiple": 34
+        }
+      }
     }
   ]
 }

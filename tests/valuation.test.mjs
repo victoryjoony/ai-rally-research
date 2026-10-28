@@ -21,7 +21,7 @@ test('REIT per-share model does not subtract debt a second time',()=>{
 test('Every individually named investment candidate has exactly one model',()=>{
  const main=JSON.parse(fs.readFileSync(new URL('../src/research.json',import.meta.url))),extra=JSON.parse(fs.readFileSync(new URL('../src/coverage.json',import.meta.url)));
  const tickers=[...main.stocks,...extra.stocks].map(s=>s.ticker);
- assert.equal(new Set(tickers).size,20);
- for(const t of ['NVDA','AVGO','META','AMZN','COHR','VRT','GOOGL','MSFT','LRCX','ETN','MU','LITE','SYM','TER','TSLA','DLR','EQIX','CRWV','FLNC','INTC'])assert.ok(tickers.includes(t));
+ assert.equal(new Set(tickers).size,26);
+ for(const t of ['NVDA','AVGO','META','AMZN','COHR','VRT','GOOGL','MSFT','LRCX','ETN','MU','LITE','SYM','TER','TSLA','DLR','EQIX','CRWV','FLNC','INTC','CRM','CRWD','CDNS','TSM','GEV','PWR'])assert.ok(tickers.includes(t));
  for(const s of extra.stocks)for(const k of ['bear','base','bull'])assert.ok(Number.isFinite(modelTarget(s,k)));
 });

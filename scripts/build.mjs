@@ -10,7 +10,12 @@ const scope=JSON.parse(await fs.readFile(path.join(ROOT,'src/research-scope.json
 const riskAudit=JSON.parse(await fs.readFile(path.join(ROOT,'data/risk-review.json'),'utf8'));
 let live={stocks:{},health:{status:'unavailable'},events:[],scheduleKST:'매일 오전 7:00'};
 try{live=JSON.parse(await fs.readFile(path.join(ROOT,'data/live.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
-const report=structuredClone(baseline);report.baselineAsOf=baseline.asOf;report.live=live;
+const overrides=JSON.parse(await fs.readFile(path.join(ROOT,'data/model-overrides.json'),'utf8'));
+const serverReview=JSON.parse(await fs.readFile(path.join(ROOT,'data/server-review.json'),'utf8'));
+const anchors=JSON.parse(await fs.readFile(path.join(ROOT,'data/model-anchors.json'),'utf8')); 
+const report=structuredClone(baseline);report.baselineAsOf=baseline.asOf;report.live=live;report.serverReview=serverReview;
+function applyOverride(s){const x=overrides.stocks[s.ticker];if(!x)return;const original=s.models||Object.fromEntries(['bear','base','bull'].map(k=>[k,s[k]]));if(JSON.stringify(original)!==JSON.stringify(anchors.stocks[s.ticker]?.models))return;s.serverOverlay=x;if(s.models)s.models=structuredClone(x.models);else for(const k of ['bear','base','bull'])s[k]=structuredClone(x.models[k]);}
+report.stocks.forEach(applyOverride);coverage.stocks.forEach(applyOverride);
 report.scope=scope;report.riskAudit=riskAudit;
 report.modelRevisions=JSON.parse(await fs.readFile(path.join(ROOT,'data/model-revisions.json'),'utf8'));
 for(const e of report.modelRevisions.entries){if(!e.ticker||!e.reviewedAt||!e.reason||!e.before||!e.after||!e.valuationImpact||!e.reviewPeriod||!e.sources?.length||e.sources.some(u=>!u.startsWith('https://')))throw new Error('Incomplete model revision record');}

@@ -1,6 +1,52 @@
 {
   "schemaVersion": 1,
   "enabledAt": "2026-10-28",
-  "status": "enabled_awaiting_first_run",
-  "entries": []
+  "status": "server_rules_active",
+  "entries": [
+    {
+      "ticker": "GOOGL",
+      "reviewedAt": "2026-10-28T21:27:00Z",
+      "reviewPeriod": "2026-09-30",
+      "reason": "Q3 실적의 검색 둔화·잉여현금 적자·차입·희석 위험을 반영해 정상 EPS 및 배수를 하향. 투자자산 평가손익과 영업 실적을 구분.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+      ],
+      "before": {
+        "bear": [
+          11,
+          17
+        ],
+        "base": [
+          18,
+          23
+        ],
+        "bull": [
+          22,
+          28
+        ]
+      },
+      "after": {
+        "bear": [
+          10,
+          16
+        ],
+        "base": [
+          17,
+          21
+        ],
+        "bull": [
+          22,
+          26
+        ]
+      },
+      "valuationImpact": {
+        "beforeTarget": 414,
+        "afterTarget": 357,
+        "beforePV": 330.2834842422703,
+        "afterPV": 284.80967119442147
+      },
+      "method": "manual-filing-review"
+    }
+  ],
+  "lastServerRunAt": "2026-10-28T21:29:45.687Z"
 }

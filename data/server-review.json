@@ -1,0 +1,426 @@
+{
+  "checkedAt": "2026-10-28T21:29:45.687Z",
+  "execution": "GitHub-hosted runner · PC 불필요",
+  "method": "공시 목록·문자열 탐지 및 제한된 수치 민감도. AI 정독·감사의견 아님",
+  "stocks": {
+    "NVDA": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-07-31"
+      }
+    },
+    "AVGO": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-07-31"
+      }
+    },
+    "META": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-09-30"
+      }
+    },
+    "AMZN": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "held",
+        "reason": "최초 비교 기준 수집 대기",
+        "period": "2026-06-30"
+      }
+    },
+    "COHR": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "VRT": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "GOOGL": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "held",
+        "reason": "최초 비교 기준 수집 대기",
+        "period": "2026-09-30"
+      }
+    },
+    "MSFT": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "LRCX": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-09-30"
+      }
+    },
+    "ETN": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "MU": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-08-31"
+      }
+    },
+    "LITE": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "SYM": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "TER": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "TSLA": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-09-30"
+      }
+    },
+    "DLR": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "held",
+        "reason": "최초 비교 기준 수집 대기",
+        "period": "2026-06-30"
+      }
+    },
+    "EQIX": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "CRWV": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "FLNC": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "INTC": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    },
+    "CRM": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-07-31"
+      }
+    },
+    "CRWD": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-07-31"
+      }
+    },
+    "CDNS": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "held",
+        "reason": "최초 비교 기준 수집 대기",
+        "period": "2026-09-30"
+      }
+    },
+    "TSM": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "held",
+        "reason": "최초 비교 기준 수집 대기",
+        "period": "2026-09-30"
+      }
+    },
+    "GEV": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "held",
+        "reason": "최초 비교 기준 수집 대기",
+        "period": "2026-09-30"
+      }
+    },
+    "PWR": {
+      "disclosure": {
+        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "status": "unavailable",
+        "unreviewed": true,
+        "documents": [],
+        "matches": [],
+        "note": "기존 회계·소송 의혹 전수조사와 구분",
+        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+      },
+      "model": {
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
+        "period": "2026-06-30"
+      }
+    }
+  },
+  "total": 26,
+  "disclosuresAvailable": 0,
+  "revised": 0
+}
