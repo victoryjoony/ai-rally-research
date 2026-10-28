@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-28T21:29:45.687Z",
+  "checkedAt": "2026-10-28T21:31:12.746Z",
   "execution": "GitHub-hosted runner · PC 불필요",
   "method": "공시 목록·문자열 탐지 및 제한된 수치 민감도. AI 정독·감사의견 아님",
   "stocks": {
     "NVDA": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -21,7 +21,7 @@
     },
     "AVGO": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -37,7 +37,7 @@
     },
     "META": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -53,7 +53,7 @@
     },
     "AMZN": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -69,7 +69,7 @@
     },
     "COHR": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -85,7 +85,7 @@
     },
     "VRT": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -101,7 +101,7 @@
     },
     "GOOGL": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -117,7 +117,7 @@
     },
     "MSFT": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -133,7 +133,7 @@
     },
     "LRCX": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -149,7 +149,7 @@
     },
     "ETN": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -158,14 +158,14 @@
         "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
       },
       "model": {
-        "status": "unchanged",
-        "reason": "비교 기준 이후 새 분기 없음",
+        "status": "held",
+        "reason": "가격·재무 자료 지연",
         "period": "2026-06-30"
       }
     },
     "MU": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -181,7 +181,7 @@
     },
     "LITE": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -197,7 +197,7 @@
     },
     "SYM": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -213,7 +213,7 @@
     },
     "TER": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -229,7 +229,7 @@
     },
     "TSLA": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -245,7 +245,7 @@
     },
     "DLR": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -261,7 +261,7 @@
     },
     "EQIX": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -277,7 +277,7 @@
     },
     "CRWV": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -293,7 +293,7 @@
     },
     "FLNC": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -309,7 +309,7 @@
     },
     "INTC": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -325,7 +325,7 @@
     },
     "CRM": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -341,7 +341,7 @@
     },
     "CRWD": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -357,7 +357,7 @@
     },
     "CDNS": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -373,7 +373,7 @@
     },
     "TSM": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -389,7 +389,7 @@
     },
     "GEV": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -405,7 +405,7 @@
     },
     "PWR": {
       "disclosure": {
-        "checkedAt": "2026-10-28T21:29:45.687Z",
+        "checkedAt": "2026-10-28T21:31:12.746Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
