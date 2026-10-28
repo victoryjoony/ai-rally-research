@@ -7,7 +7,7 @@ const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=async p=>JSON.parse(await fs.readFile(path.join(ROOT,p),'utf8'));
 const research=await read('src/research.json');
 const coverage=await read('src/coverage.json');
-const universe=[...research.stocks,...coverage.stocks.map(s=>({...s,asOf:coverage.asOf,bear:[modelTarget(s,'bear'),1]}))];
+const universe=[...research.stocks,...coverage.stocks.map(s=>({...s,asOf:s.asOf||coverage.asOf,bear:[modelTarget(s,'bear'),1]}))];
 let previous={stocks:{},events:[]};
 try{previous=await read('data/live.json');}catch(e){if(e.code!=='ENOENT')throw e;}
 const now=new Date(),today=now.toISOString().slice(0,10);
@@ -47,6 +47,7 @@ for(const stock of universe){
     }else next.financials={...next.financials,status:'stale'};
   }
   next.impact=assessImpact(stock,old,next,stock.asOf||research.asOf,now);
+  if(stock.riskReview){next.impact.review=true;next.impact.label=stock.riskReview.label;next.impact.reasons.push(...stock.riskReview.reasons);}
   if(stock.referencePerShare){next.impact.reasons.push('REIT 가치 지표는 고정된 회사 FFO/AFFO 가이던스 기반: 새 공시 수동 검토 필요');}
   if(next.financials&&daysBetween(next.financials.period,today)>150){next.impact.review=true;next.impact.label='시나리오 재검토';next.impact.reasons.push('최근 재무 기간 150일 경과: 공급자 반영 지연 확인');}
   if(next.impact.isNew||next.impact.revised){
