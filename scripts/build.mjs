@@ -6,9 +6,12 @@ import {modelTarget} from './valuation.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const baseline=JSON.parse(await fs.readFile(path.join(ROOT,'src/research.json'),'utf8'));
 const coverage=JSON.parse(await fs.readFile(path.join(ROOT,'src/coverage.json'),'utf8'));
+const scope=JSON.parse(await fs.readFile(path.join(ROOT,'src/research-scope.json'),'utf8'));
+const riskAudit=JSON.parse(await fs.readFile(path.join(ROOT,'data/risk-review.json'),'utf8'));
 let live={stocks:{},health:{status:'unavailable'},events:[],scheduleKST:'매일 오전 7:00'};
 try{live=JSON.parse(await fs.readFile(path.join(ROOT,'data/live.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
 const report=structuredClone(baseline);report.baselineAsOf=baseline.asOf;report.live=live;
+report.scope=scope;report.riskAudit=riskAudit;
 report.remainingYears=Math.max(.01,(Date.parse(baseline.horizon+'T00:00:00Z')-Date.parse(live.checkedAt||baseline.asOf))/(365.25*86400000));
 const dates=[];
 for(const s of report.stocks){
@@ -41,10 +44,14 @@ for(const [marker,name] of [['/*__LIVE_CSS__*/','live.css'],['<!--__LIVE_PANEL__
  template=template.replace(marker,()=>fragment);
 }
 const modelCode=(await fs.readFile(path.join(ROOT,'scripts/valuation.mjs'),'utf8')).replaceAll('export function','function');
-const html=template.replace('/*__MODEL_FUNCTIONS__*/',()=>modelCode).replace('/*__REPORT_DATA__*/',()=>JSON.stringify(report).replace(/</g,'\\u003c'));
+function renderPage(source,view){return source.replace('/*__MODEL_FUNCTIONS__*/',()=>modelCode).replace('/*__REPORT_DATA__*/',()=>JSON.stringify({...report,view}).replace(/</g,'\\u003c'));}
+const mainTemplate=template.replace(/<(tr|div|p)\b(?=[^>]*data-scope-ticker="([A-Z]+)")[^>]*>[\s\S]*?<\/\1>/g,(match,tag,ticker)=>scope.observation[ticker]?'':match);
+const html=renderPage(mainTemplate,'core'),archive=renderPage(template,'archive');
 if(html.includes('/*__REPORT_DATA__*/'))throw new Error('Data injection failed');
-for(const m of html.matchAll(/<script(?: [^>]*)?>([\s\S]*?)<\/script>/g))if(!m[0].includes('application/json'))new vm.Script(m[1]);
+for(const page of [html,archive])for(const m of page.matchAll(/<script(?: [^>]*)?>([\s\S]*?)<\/script>/g))if(!m[0].includes('application/json'))new vm.Script(m[1]);
 await fs.mkdir(path.join(ROOT,'dist/data'),{recursive:true});
 await fs.writeFile(path.join(ROOT,'index.html'),html);await fs.writeFile(path.join(ROOT,'dist/index.html'),html);
+await fs.writeFile(path.join(ROOT,'archive.html'),archive);await fs.writeFile(path.join(ROOT,'dist/archive.html'),archive);
+await fs.writeFile(path.join(ROOT,'dist/data/risk-review.json'),JSON.stringify(riskAudit));
 await fs.writeFile(path.join(ROOT,'dist/.nojekyll'),'');await fs.writeFile(path.join(ROOT,'dist/data/live.json'),JSON.stringify(live));
 console.log('Built report: prices '+report.priceDate+' / '+live.health.status);

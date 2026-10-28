@@ -1,0 +1,9 @@
+{
+ "schemaVersion":1,
+ "lastFullReviewAt":null,
+ "status":"initial_full_review_pending",
+ "trackedCount":20,
+ "scheduleKST":"매일 오전 7시 · 로컬 조사 실행 환경 필요",
+ "partialReviews":[{"ticker":"FLNC","reviewDateKST":"2026-10-28","scope":"9/16 가이던스 재하향, 과거 내부통제·Siemens Energy 분쟁 및 관련 의혹의 구분","sources":["https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-energy-announces-revised-guidance-fiscal-year-2026","https://ir.fluenceenergy.com/static-files/62a9a98b-a57f-4143-9cb3-e6a6cc29101b","https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-responds-misleading-short-seller-report"],"result":"기존 저평가 판단 철회·가정 수정. 모든 조작 의혹의 사실 확정이나 전체 기업 조사 완료를 의미하지 않음"}],
+ "note":"20개 전체의 최초 일괄 공시·의혹 조사는 아직 완료되지 않았다. 가격/분기 재무 자동 갱신 시각과 구분한다."
+}

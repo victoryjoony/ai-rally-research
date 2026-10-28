@@ -1,5 +1,6 @@
 const EXTENDED=REPORT.extended||[];
 const UNIVERSE=[...STOCKS,...EXTENDED];
+const VISIBLE=REPORT.view==='archive'?UNIVERSE:UNIVERSE.filter(s=>!REPORT.scope.observation[s.ticker]);
 function coverageValue(s,k='base',r=12){return s.modelKind?modelValue(s,k,r,REPORT.remainingYears):value(s,k,r,0);}
 function coverageClass(s,v){
  if(!(s.price>0))return ['가격 미확인','watch'];
@@ -8,9 +9,10 @@ function coverageClass(s,v){
 }
 function renderCoverage(){
  const k=$('coverageScenario').value,r=Number($('coverageDiscount').value),term=$('coverageSearch').value.trim().toLowerCase();
- const rows=UNIVERSE.map(s=>({s,v:coverageValue(s,k,r)})).filter(({s,v})=>(!term||(s.ticker+' '+s.name+' '+s.sector).toLowerCase().includes(term))&&(!$('coverageOnlyValue').checked||(v.discount!==null&&v.discount>=.2)))
+ const rows=VISIBLE.map(s=>({s,v:coverageValue(s,k,r)})).filter(({s,v})=>(!term||(s.ticker+' '+s.name+' '+s.sector).toLowerCase().includes(term))&&(!$('coverageOnlyValue').checked||(v.discount!==null&&v.discount>=.2)))
  .sort((a,b)=>(b.v.discount??-Infinity)-(a.v.discount??-Infinity));
- $('coverageCount').textContent=rows.length+' / '+UNIVERSE.length+'개 · '+labels[k]+' 시나리오 · 연 할인율 '+r+'% · 목표 2028.10.26 · 모든 모형 가정은 분석자 판단';
+ $('coverageHeading').textContent=(REPORT.view==='archive'?'보관 기록 · 전체 ':'핵심 ')+VISIBLE.length+'개 종목 정량평가';
+ $('coverageCount').textContent=rows.length+' / 표시 대상 '+VISIBLE.length+'개 · 전체 추적 '+UNIVERSE.length+'개 · '+labels[k]+' · 연 할인율 '+r+'% · 목표 2028.10.26';
  $('coverageRows').innerHTML=rows.map(({s,v})=>{
   const [label,kind]=coverageClass(s,v),impact=s.live?.impact||{};
   const date=s.priceDate||'미확인',stale=s.live?.quote?.status!=='ok';
@@ -24,7 +26,7 @@ function modelFormula(s,k){
  return 'max(0, 연매출 $'+m.revenueB+'B × EV/매출 '+m.multiple+'배 − 순부채 $'+m.netDebtB+'B) ÷ 희석 경제적 지분 '+m.sharesB+'B주'+(factor!==1?' ÷ 분할비율 '+factor:'');
 }
 function renderExtendedDetails(){
- $('extendedDetails').innerHTML=EXTENDED.map(s=>{
+ $('extendedDetails').innerHTML=VISIBLE.filter(s=>s.modelKind).map(s=>{
   const reference=s.referencePerShare?'회사 가이던스 기준 P/'+esc(s.metric)+' '+(s.price>0?(s.price/(s.referencePerShare/(s.splitFactor||1))).toFixed(1)+'배':'미확인')+' · '+esc(s.referenceLabel)+' '+usd(s.referencePerShare,2)+' (2026.10.27 확인·고정)':'';
   const m=s.models.base,factor=s.splitFactor||1;
   const required=s.price>0?(s.modelKind==='ev-sales'?((s.price*factor*m.sharesB+m.netDebtB)/m.multiple):s.modelKind==='net-margin'?(s.price*factor/m.multiple*m.sharesB/m.revenueB*100):(s.price*factor/m.multiple)):null;
@@ -33,10 +35,13 @@ function renderExtendedDetails(){
  }).join('');
 }
 function openCoverageStock(ticker){
- if(STOCKS.some(s=>s.ticker===ticker))selectStock(ticker,true);
+ if(STOCKS.some(s=>s.ticker===ticker)){if($('legacyDetails'))$('legacyDetails').open=true;selectStock(ticker,true);}
  else {const target=$('model-'+ticker);if(target){target.open=true;target.scrollIntoView({behavior:'smooth',block:'start'});}}
 }
 for(const id of ['coverageScenario','coverageDiscount','coverageOnlyValue'])$(id).addEventListener('change',renderCoverage);
 $('coverageSearch').addEventListener('input',renderCoverage);
 $('all-coverage').addEventListener('click',e=>{const b=e.target.closest('[data-coverage-ticker]');if(b)openCoverageStock(b.dataset.coverageTicker);});
 renderCoverage();renderExtendedDetails();
+const audit=REPORT.riskAudit;
+$('riskReviewStatus').textContent=audit.lastFullReviewAt?'전체 공시 조사 확인: '+audit.lastFullReviewAt:'전체 공시·의혹 최초 일괄조사 대기 · FLNC 일부 확인·정정 2026.10.28. 가격 갱신과 별도입니다.';
+if(REPORT.view!=='archive'&&location.hash==='#flnc-correction')location.replace('./archive.html#flnc-correction');

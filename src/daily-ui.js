@@ -10,7 +10,7 @@ function renderDaily(){
  $('dailyPriceDate').textContent=REPORT.priceDate;
  $('dailyUpdateTime').textContent=checked?fmtTime(checked):'대기 중';
  $('dailyModelDate').textContent=REPORT.baselineAsOf+' · 추가 '+REPORT.coverageAsOf+' / 목표 '+REPORT.horizon;
- $('liveRows').innerHTML=UNIVERSE.map(s=>{
+ $('liveRows').innerHTML=VISIBLE.map(s=>{
   const x=s.live||{},q=x.quote||{},f=x.financials||{},impact=x.impact||{},errors=x.errors||[];
   const pe=typeof f.ttmEPS==='number'&&f.ttmEPS>0?s.price/f.ttmEPS:null;
   const status=q.status==='ok'&&f.status==='ok'?'자료 정상':'자료 지연·확인 필요';
@@ -18,7 +18,7 @@ function renderDaily(){
  }).join('');
  const events=(live.events||[]).slice(0,12);
  $('dailyEvents').innerHTML=events.length?events.map(e=>'<li><b>'+esc(e.ticker)+'</b> · 자료 기간 '+fmtDate(e.period)+' · 감지 '+fmtTime(new Date(e.detectedAt))+' · '+esc(e.label)+'<br><span class="note">'+esc(e.reasons.join(' · '))+'</span></li>').join(''):'<li>아직 새 분기 실적 변화를 감지하지 않았습니다. 최초 동기화는 새 실적 발표로 세지 않습니다.</li>';
- const candidates=UNIVERSE.map(s=>({s,v:coverageValue(s,'base',12)})).filter(x=>x.s.price>0&&x.v.discount!==null&&x.v.discount>=.2).sort((a,b)=>b.v.discount-a.v.discount).slice(0,3);
+ const candidates=VISIBLE.map(s=>({s,v:coverageValue(s,'base',12)})).filter(x=>x.s.price>0&&x.v.discount!==null&&x.v.discount>=.2).sort((a,b)=>b.v.discount-a.v.discount).slice(0,3);
  $('heroPicks').innerHTML=candidates.length?candidates.map(({s,v})=>'<div class="lead-pick"><div><span class="ticker">'+s.ticker+'</span><small>'+esc(s.sector)+' · '+esc(s.risk)+'</small></div><div class="lead-num">'+(v.discount*100).toFixed(0)+'%<small>현재 모형가치 대비 가격 할인</small></div></div>').join(''):'<p class="note">현재 기본 가정에서 20% 이상 가격 할인 후보가 없습니다.</p>';
  $('daily').addEventListener('click',e=>{const b=e.target.closest('[data-daily-ticker]');if(b)openCoverageStock(b.dataset.dailyTicker);});
  const elapsed=document.createElement('p');elapsed.className='note';
@@ -26,3 +26,4 @@ function renderDaily(){
  $('screen').insertBefore(elapsed,$('screen').children[1]);
 }
 renderDaily();
+$('coveragePill').textContent='표시 '+VISIBLE.length+'개 · 전체 '+UNIVERSE.length+'개 추적';
