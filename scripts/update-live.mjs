@@ -2,13 +2,16 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {normalizeQuote,normalizeFinancials,assessImpact,daysBetween} from './market.mjs';
+import {modelTarget} from './valuation.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=async p=>JSON.parse(await fs.readFile(path.join(ROOT,p),'utf8'));
 const research=await read('src/research.json');
+const coverage=await read('src/coverage.json');
+const universe=[...research.stocks,...coverage.stocks.map(s=>({...s,asOf:coverage.asOf,bear:[modelTarget(s,'bear'),1]}))];
 let previous={stocks:{},events:[]};
 try{previous=await read('data/live.json');}catch(e){if(e.code!=='ENOENT')throw e;}
 const now=new Date(),today=now.toISOString().slice(0,10);
-const out={schemaVersion:1,checkedAt:now.toISOString(),scheduleKST:'매일 오전 7:00 (GitHub 실행 지연 가능)',source:'Yahoo Finance 공개 API · 비공식, 서비스 보장 없음',stocks:{},events:previous.events||[],health:{quotes:0,financials:0,total:research.stocks.length,errors:[]}};
+const out={schemaVersion:1,checkedAt:now.toISOString(),scheduleKST:'매일 오전 7:00 (GitHub 실행 지연 가능)',source:'Yahoo Finance 공개 API · 비공식, 서비스 보장 없음',stocks:{},events:previous.events||[],health:{quotes:0,financials:0,total:universe.length,errors:[]}};
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
 async function json(url){
   for(let attempt=0;attempt<3;attempt++){
@@ -21,13 +24,13 @@ async function json(url){
   }
 }
 const types=['trailingDilutedEPS','quarterlyDilutedEPS','quarterlyTotalRevenue','quarterlyOperatingIncome','quarterlyOperatingCashFlow','quarterlyCapitalExpenditure','quarterlyOrdinarySharesNumber'];
-for(const stock of research.stocks){
+for(const stock of universe){
   const old=previous.stocks[stock.ticker]||{},next=structuredClone(old);
   next.checkedAt=now.toISOString();next.errors=[];
   try{
     const p1=Math.floor(Date.parse(research.asOf+'T00:00:00Z')/1000)-40*86400,p2=Math.ceil(now.getTime()/1000)+86400;
     const quote=await json('https://query1.finance.yahoo.com/v8/finance/chart/'+stock.ticker+'?interval=1d&events=splits&period1='+p1+'&period2='+p2);
-    next.quote=normalizeQuote(quote,now,research.asOf);out.health.quotes++;
+    next.quote=normalizeQuote(quote,now,stock.asOf||research.asOf);out.health.quotes++;
   }catch(e){next.errors.push('종가: '+e.message);if(next.quote)next.quote={...next.quote,status:'stale'};}
   await pause(450);
   try{
@@ -43,7 +46,8 @@ for(const stock of research.stocks){
       next.financials={period:stock.scenarioReviewedPeriod,ttmEPS:stock.gaapEPS,epsMethod:'최초 리서치 TTM GAAP EPS · 자동 공급자 반영 지연',status:'stale',source:'최초 리서치 확인 값',sourceUrl:stock.primary,fetchedAt:research.asOf+'T00:00:00Z'};
     }else next.financials={...next.financials,status:'stale'};
   }
-  next.impact=assessImpact(stock,old,next,research.asOf,now);
+  next.impact=assessImpact(stock,old,next,stock.asOf||research.asOf,now);
+  if(stock.referencePerShare){next.impact.reasons.push('REIT 가치 지표는 고정된 회사 FFO/AFFO 가이던스 기반: 새 공시 수동 검토 필요');}
   if(next.financials&&daysBetween(next.financials.period,today)>150){next.impact.review=true;next.impact.label='시나리오 재검토';next.impact.reasons.push('최근 재무 기간 150일 경과: 공급자 반영 지연 확인');}
   if(next.impact.isNew||next.impact.revised){
     const id=stock.ticker+':'+next.financials.period+':'+next.financials.ttmEPS;
@@ -60,6 +64,6 @@ const target=path.join(ROOT,'data/live.json'),tmp=target+'.tmp';
 await fs.writeFile(tmp,JSON.stringify(out,null,2)+'\n','utf8');await fs.rename(tmp,target);
 console.log(JSON.stringify(out.health));
 if(process.env.GITHUB_STEP_SUMMARY){
- const lines=['## Daily market update','Checked: '+out.checkedAt,'Quotes: '+out.health.quotes+'/12 · Financials: '+out.health.financials+'/12','Status: '+out.health.status,...out.health.errors.map(x=>'- '+x)];
+ const lines=['## Daily market update','Checked: '+out.checkedAt,'Quotes: '+out.health.quotes+'/'+out.health.total+' · Financials: '+out.health.financials+'/'+out.health.total,'Status: '+out.health.status,...out.health.errors.map(x=>'- '+x)];
  await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
 }

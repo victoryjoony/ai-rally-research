@@ -2,8 +2,10 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
+import {modelTarget} from './valuation.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const baseline=JSON.parse(await fs.readFile(path.join(ROOT,'src/research.json'),'utf8'));
+const coverage=JSON.parse(await fs.readFile(path.join(ROOT,'src/coverage.json'),'utf8'));
 let live={stocks:{},health:{status:'unavailable'},events:[],scheduleKST:'매일 오전 7:00'};
 try{live=JSON.parse(await fs.readFile(path.join(ROOT,'data/live.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
 const report=structuredClone(baseline);report.baselineAsOf=baseline.asOf;report.live=live;
@@ -22,12 +24,24 @@ for(const s of report.stocks){
  else{s.sharesB*=factor;s.sharesDate=baseline.asOf;}
 }
 const unique=[...new Set(dates)];report.priceDate=unique.length===1?unique[0]:'종목별 기준일';
+report.coverageAsOf=coverage.asOf;
+report.extended=coverage.stocks.map(s=>{
+ const current=live.stocks[s.ticker]||{},quote=current.quote||{};
+ const x={...s,live:current,price:quote.close??null,priceDate:quote.date??null,splitFactor:quote.splitFactor||1};
+ for(const k of ['bear','base','bull'])modelTarget(x,k);
+ return x;
+});
+report.total=report.stocks.length+report.extended.length;
+const allDates=[...new Set([...dates,...report.extended.map(s=>s.priceDate||'미확인')])];
+report.priceDate=allDates.length===1?allDates[0]:'종목별 기준일';
 let template=await fs.readFile(path.join(ROOT,'src/template.html'),'utf8');
-for(const [marker,name] of [['/*__LIVE_CSS__*/','live.css'],['<!--__LIVE_PANEL__-->','live-panel.html'],['<!--__PHYSICAL_AI__-->','physical-ai.html'],['/*__DAILY_UI__*/','daily-ui.js']]){
+for(const [marker,name] of [['/*__LIVE_CSS__*/','live.css'],['<!--__LIVE_PANEL__-->','live-panel.html'],['<!--__PHYSICAL_AI__-->','physical-ai.html'],['<!--__COVERAGE_PANEL__-->','coverage-panel.html'],['/*__COVERAGE_UI__*/','coverage-ui.js'],['/*__DAILY_UI__*/','daily-ui.js']]){
  if(!template.includes(marker))throw new Error('Missing source marker: '+name);
- template=template.replace(marker,await fs.readFile(path.join(ROOT,'src',name),'utf8'));
+ const fragment=await fs.readFile(path.join(ROOT,'src',name),'utf8');
+ template=template.replace(marker,()=>fragment);
 }
-const html=template.replace('/*__REPORT_DATA__*/',JSON.stringify(report).replace(/</g,'\\u003c'));
+const modelCode=(await fs.readFile(path.join(ROOT,'scripts/valuation.mjs'),'utf8')).replaceAll('export function','function');
+const html=template.replace('/*__MODEL_FUNCTIONS__*/',()=>modelCode).replace('/*__REPORT_DATA__*/',()=>JSON.stringify(report).replace(/</g,'\\u003c'));
 if(html.includes('/*__REPORT_DATA__*/'))throw new Error('Data injection failed');
 for(const m of html.matchAll(/<script(?: [^>]*)?>([\s\S]*?)<\/script>/g))if(!m[0].includes('application/json'))new vm.Script(m[1]);
 await fs.mkdir(path.join(ROOT,'dist/data'),{recursive:true});

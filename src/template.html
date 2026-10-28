@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="dark light">
-<meta name="description" content="AI 랠리 재개를 가정한 미국 주식 12개 기업의 가격, 이익 전망, 24개월 가치 시나리오를 비교하는 투자 리서치.">
+<meta name="description" content="AI 랠리 재개를 가정한 미국 주식 20개 기업의 가격, 이익 전망, 24개월 가치 시나리오를 비교하는 투자 리서치.">
 <title>AI 랠리의 다음 수익원 | 미국 주식 24개월 리서치</title>
 <style>
 :root{--bg:#0c1420;--panel:#131f2d;--panel2:#182636;--line:#2a3b4b;--text:#edf2f5;--muted:#adbdca;--dim:#7f94a5;--mint:#75dfbd;--amber:#e9bd78;--red:#ff9b9b;--blue:#91b9fa;--serif:Georgia,"Batang",serif;--sans:"Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif}
@@ -20,17 +20,17 @@
 </head>
 <body>
 <noscript><div class="no-js">이 보고서의 비교표와 계산기는 JavaScript가 필요합니다. 브라우저에서 JavaScript를 허용한 뒤 다시 열어주세요.</div></noscript>
-<header class="topbar"><div class="wrap"><a class="brand" href="#top">RESEARCH <b>/</b> 24M</a><nav aria-label="보고서 목차"><a href="#daily">일일 현황</a><a href="#screen">가격 비교</a><a href="#physical-ai">피지컬 AI</a><a href="#method">방법·출처</a></nav><button class="print" id="printButton" type="button">인쇄 / PDF</button></div></header>
+<header class="topbar"><div class="wrap"><a class="brand" href="#top">RESEARCH <b>/</b> 24M</a><nav aria-label="보고서 목차"><a href="#daily">일일 현황</a><a href="#all-coverage">전체 평가</a><a href="#physical-ai">피지컬 AI</a><a href="#method">방법·출처</a></nav><button class="print" id="printButton" type="button">인쇄 / PDF</button></div></header>
 <main class="wrap" id="top">
 <section class="hero" aria-labelledby="title">
-  <div><div class="eyebrow">Daily market update / US equities / research 26 OCT 2026</div><h1>AI 랠리가 돌아오면,<br><em>어디에 가치가 남아 있을까.</em></h1><p class="dek">인프라 투자가 현금흐름으로 바뀌는 다음 24개월.<br>성장하는 산업에서, 가격까지 매력적인 기업을 고른다.</p><div><span class="pill">미국 상장 주식</span><span class="pill">12개 종목 매일 갱신</span><span class="pill mint">2028.10까지</span></div></div>
-  <aside class="hero-side"><h2>최근 종가로 재계산한 모형 후보</h2><div id="heroPicks"></div><p class="note">최초 EPS·PER 가정, 연 12% 할인율로 목표일까지 할인한 가격의 비교. 20% 이상 할인 후보만 표시하며 새 실적의 재검토 표시는 아래에서 확인.</p></aside>
+  <div><div class="eyebrow">Daily market update / US equities / research 26 OCT 2026</div><h1>AI 랠리가 돌아오면,<br><em>어디에 가치가 남아 있을까.</em></h1><p class="dek">인프라 투자가 현금흐름으로 바뀌는 다음 24개월.<br>성장하는 산업에서, 가격까지 매력적인 기업을 고른다.</p><div><span class="pill">미국 상장 주식</span><span class="pill">20개 종목 매일 갱신</span><span class="pill mint">2028.10까지</span></div></div>
+  <aside class="hero-side"><h2>전체 20개 중 모형 할인 후보</h2><div id="heroPicks"></div><p class="note">EPS·FFO/AFFO·매출 기반 모형, 연 12% 할인율로 목표일까지 할인한 가격의 비교. 20% 이상 할인 후보를 최대 3개 표시한다. 모든 후보와 가정은 전체 평가에서 확인.</p></aside>
 </section>
 <div class="date-strip"><div><span>최근 종가 기준일</span><strong id="dailyPriceDate">확인 중</strong></div><div><span>마지막 자동 조회 / KST</span><strong id="dailyUpdateTime">확인 중</strong></div><div><span>정기 실행 / 한국 시간</span><strong>매일 오전 7:00</strong></div><div><span>모형 검토일 / 목표일</span><strong id="dailyModelDate">확인 중</strong></div></div>
 <!--__LIVE_PANEL__-->
 
 <div class="thesis-box"><strong>최초 투자 판단<br><small>2026.10.26</small></strong><p><b>최초 리서치에서는 AI 반도체의 NVDA·AVGO를 우선 검토했다. 최신 가격 여력과 실적 경고는 일일 현황에서 다시 확인한다.</b> 광통신에서는 COHR가 할인 후보지만 실행 위험이 더 크다. META·AMZN은 현금흐름 회복을 확인할 후보, VRT는 수주와 마진을 확인할 후보로 구분한다. MSFT는 사업의 질과 큰 저평가를 구분하고, MU의 낮은 PER은 정상 이익으로 다시 계산한다.</p></div>
-<p class="note">종가·실제 실적은 일일 갱신, 최초 시장 예상 EPS·서술 분석은 2026.10.26 기준입니다. 목표일 2028.10.26을 유지하며 할인 기간은 데이터 조회일에서 목표일까지의 잔여기간을 사용합니다. 최신 종가와 과거 이익 전망을 조합한 PER는 현재 컨센서스 PER가 아닙니다. 아래 서술 판단은 최초 리서치이며 자동 투자 추천이 아닙니다.</p>
+<p class="note">종가·실제 실적은 일일 갱신, 최초 시장 예상 EPS·서술 분석은 2026.10.26 기준입니다. 목표일 2028.10.26을 유지하며 할인 기간은 데이터 조회일에서 목표일까지의 잔여기간을 사용합니다. 최신 종가와 과거 이익 전망을 조합한 PER는 현재 컨센서스 PER가 아닙니다. 기존 12개 서술은 10.26, 추가 8개 모형은 10.27 검토 기준이며 자동 투자 추천이 아닙니다.</p>
 
 <section class="chapter" id="sectors">
 <div class="chapter-head"><span class="chapter-no">01</span><h2>어떤 랠리인가에 따라 수혜가 갈린다</h2><span class="meta">CAPEX 감소 = AI 전 업종 호재는 아니다</span></div>
@@ -48,18 +48,20 @@
 <tr><td>전력 · 냉각</td><td>기존 시설 개조 수혜</td><td><span class="tag">선택적 수혜</span></td><td>VRT는 AI 민감도, ETN은 이익원 분산. 백로그 크기보다 취소·매출 전환·마진을 확인.</td></tr>
 <tr><td>반도체 소부장</td><td><span class="tag watch">조건부</span></td><td>제조사 증설 시 수혜</td><td>LRCX. 빅테크 CAPEX 둔화와 제조사 WFE 투자를 혼동하지 않음. 기준 모형의 가격 여유는 제한적.</td></tr>
 <tr><td>HBM · 메모리</td><td><span class="tag watch">정상화 검증</span></td><td>공급 제약 유지 시 수혜</td><td>MU. 가장 낮은 PER이 가장 싼 주식을 뜻하지 않음. 메모리 가격·공급 증가와 이익 고점을 별도 평가.</td></tr>
-<tr><td><a href="#physical-ai">피지컬 AI · 로봇</a></td><td>고객의 인건비·생산성 개선</td><td><span class="tag watch">선별 분석 후보</span></td><td>SYM은 물류 자동화, TER는 로봇·반도체 테스트, NVDA는 학습·시뮬레이션 플랫폼. TSLA의 휴머노이드는 상업화 검증이 필요. 신규 후보의 현재 저평가 여부는 미평가.</td></tr>
-<tr><td>데이터센터 운영</td><td>가동률·임대 수익 개선</td><td>증설·임대 확대</td><td>DLR·EQIX의 REIT와 CRWV의 GPU 클라우드는 다른 사업. 부채·전력 확보·고객 집중·교체 투자를 먼저 평가. 정량 순위에서는 제외.</td></tr>
-<tr><td>ESS</td><td><span class="tag weak">후순위</span></td><td>전력 투자와 간접 연계</td><td>FLNC의 최근 실적은 매출 증가와 이익률 하락이 공존. TSLA는 ESS 외 사업 영향이 큼. 현 가격 저평가 여부는 본 모형에서 미평가.</td></tr>
-<tr><td>유리기판</td><td><span class="tag weak">후순위</span></td><td>채택·양산 시점이 변수</td><td>산업 성장 전망과 2년 내 주당 이익은 별개. SEMI의 2028년 이후 성장 전망을 감안해 핵심 투자에서 제외. INTC는 순수 유리기판 투자가 아님.</td></tr>
+<tr><td><a href="#physical-ai">피지컬 AI · 로봇</a></td><td>고객의 인건비·생산성 개선</td><td><span class="tag watch">선별 분석 후보</span></td><td>SYM은 물류 자동화, TER는 로봇·반도체 테스트, NVDA는 학습·시뮬레이션 플랫폼. TSLA의 휴머노이드는 상업화 검증이 필요. 전체 평가에서 4개 기업의 정량 모형과 조건부 할인 여부를 비교.</td></tr>
+<tr><td>데이터센터 운영</td><td>가동률·임대 수익 개선</td><td>증설·임대 확대</td><td>DLR·EQIX의 REIT와 CRWV의 GPU 클라우드는 다른 사업. 부채·전력 확보·고객 집중·교체 투자를 먼저 평가. REIT는 FFO/AFFO, CRWV는 순부채·희석을 반영한 매출 모형으로 전체 평가에 포함.</td></tr>
+<tr><td>ESS</td><td><span class="tag weak">후순위</span></td><td>전력 투자와 간접 연계</td><td>FLNC의 최근 실적은 매출 증가와 이익률 하락이 공존. TSLA는 ESS 외 사업 영향이 큼. 전체 평가에 FLNC·TSLA의 정상화 이익 모형을 포함.</td></tr>
+<tr><td>유리기판</td><td><span class="tag weak">후순위</span></td><td>채택·양산 시점이 변수</td><td>산업 성장 전망과 2년 내 주당 이익은 별개. SEMI의 2028년 이후 성장 전망을 감안해 핵심 투자에서 제외. INTC는 순수 유리기판 투자가 아니며 전체 평가에서 회사 전체의 정상화 EPS로 평가.</td></tr>
 </tbody></table></div>
 <p class="note">섹터 판단은 정성적 분석이다. <a href="#extraSources">데이터센터·ESS·유리기판 근거</a>. 위 후순위 분류는 해당 주식의 현재 저평가를 정량 검증했다는 뜻이 아니다.</p>
 </section>
 
 <!--__PHYSICAL_AI__-->
 
+<!--__COVERAGE_PANEL__-->
+
 <section class="chapter" id="screen">
-<div class="chapter-head"><span class="chapter-no">02</span><h2>기업의 가치와 현재 가격을 함께 비교</h2><span class="meta">USD · 배당·세금·환율 제외</span></div>
+<div class="chapter-head"><span class="chapter-no">02</span><h2>기존 12개 기업 — EPS 가정을 직접 비교</h2><span class="meta">USD · 배당·세금·환율 제외</span></div>
 <div class="verdict-grid">
  <article class="verdict"><div class="eyebrow">가격과 성장의 조합</div><p class="names">NVDA · AVGO</p><p>우선 분석할 두 기업. 시장의 이익 전망을 참고해 설정한 기준 모형에서 가격 여유가 남는다. 다만 고객 투자와 마진이 동시에 흔들리면 저평가 판단도 무너진다.</p></article>
  <article class="verdict"><div class="eyebrow">공격적인 할인 후보</div><p class="names">COHR</p><p>이익 전망이 실현되면 가치 회복 여력이 크다. 광통신 성장률만 믿고 접근하기보다 수율·제품 경쟁·현금흐름·희석을 확인할 후보다. 높은 상승 여력과 높은 불확실성이 함께 존재한다.</p></article>
@@ -109,12 +111,12 @@
 <section class="chapter" id="method">
 <div class="chapter-head"><span class="chapter-no">05</span><h2>가치 산정 방법과 자료의 한계</h2><span class="meta">확인된 사실 / 시장 예상 / 분석 가정</span></div>
 <div class="method">
- <div><h3>두 종류의 가치를 구분한다</h3><div class="formula">목표일 모형 가격 = 정상화 EPS × 적용 PER<br>현재 모형가치 = 모형 가격 ÷ (1 + 연 할인율)^잔여기간</div><p>모형은 2028.10.26 시점의 정상화 연간 조정 EPS와 PER를 가정한 <b>주주가치 배수 모형</b>이다. 엄밀한 DCF나 EV 기반 사업부 합산가치(SOTP)를 대신하지 않는다. EPS에 이미 이자·세금 등이 반영되므로 여기서 순부채를 다시 차감하지 않는다.</p><p>‘현재가치 대비 할인’ = 1 − 현재 주가 / 현재 모형가치. ‘목표일 가격 여력’ = 모형 가격 / 주가 − 1. 연환산 수익률 = (모형 가격 / 주가)^(1/잔여기간) − 1. 둘은 서로 다른 지표다.</p><p>12%는 비교를 위한 공통 할인율로 개인에게 적합한 요구수익률을 의미하지 않는다. COHR·MU·LITE 등 불확실성이 큰 기업에는 15~20%도 함께 검토할 수 있도록 조절 기능을 제공한다. 할인율 인상 시 저평가 후보가 줄어든다.</p><p>배당·세금·거래비용·원달러 환율을 제외한 USD 주가 수익률이다. 시나리오는 기대수익률이나 확률 가중 목표주가가 아니다. 약세 시나리오가 최대 손실을 뜻하지 않는다.</p></div>
- <div><h3>정량 결과를 읽는 규칙</h3><ol><li><b>실제 주가:</b> 최초 종가는 Stock Analysis 등으로 확인했고 일일 갱신은 Yahoo Finance 공개 일별 자료를 사용한다. 완료된 정규장 종가만 반영하며 종목별 자료 날짜와 실패 여부를 표시한다.</li><li><b>시장 예상:</b> Stock Analysis가 제공하는 S&P Global 집계의 회계연도별 조정 EPS. 회사 가이던스나 확정 이익이 아니다. 페이지에 공개된 수치만 사용했다.</li><li><b>직접 계산:</b> 종가/EPS로 FY2027E·FY2028E PER 산정. 공급자의 NTM Forward P/E와 기간이 달라 숫자가 다를 수 있다. 회계연도 결산월을 함께 공개했다.</li><li><b>분석 가정:</b> 약세·기준·강세의 EPS와 PER는 이 보고서의 판단. 시장 EPS를 참고하되 성장률을 2년 단순 연장하지 않았다. MU는 고점 이익 정상화, COHR·LITE는 실행·희석 위험을 추가 반영했다.</li><li><b>배수의 근거와 한계:</b> 성장 지속성·현금 창출·사업 분산·고객 집중·경기 순환을 반영해 분석자가 지정했다. 과거 평균이나 동종사 회귀모형으로 검증한 객관적 적정 배수가 아니다. 상세 패널과 계산기에서 가정을 검토해야 한다.</li><li><b>조정이익:</b> 주식보상·인수 무형자산 상각·일회성 비용 등의 제외로 GAAP와 차이가 난다. 제외 항목의 반복성과 실제 희석을 따져야 한다. 최신 실적 원문과 TTM GAAP EPS를 함께 제공했다.</li><li><b>선별 범위:</b> 핵심 12개 표본의 상대 비교이며 미국 전체 시장에서 가장 저평가된 종목을 입증한 결과가 아니다. 일일 자동 점검은 새로운 종목 추천이나 미래 이익 가정의 자동 재작성 기능이 아니다. REIT는 AFFO/FFO·부채·금리 모형이 필요해 같은 EPS 모형에서 제외했다.</li></ol></div>
+ <div><h3>두 종류의 가치를 구분한다</h3><div class="formula">목표일 모형 가격 = 정상화 EPS × 적용 PER<br>현재 모형가치 = 모형 가격 ÷ (1 + 연 할인율)^잔여기간</div><p>기존 12개 모형은 2028.10.26 시점의 정상화 연간 조정 EPS와 PER를 가정한 <b>주주가치 배수 모형</b>이다. 엄밀한 DCF나 EV 기반 사업부 합산가치(SOTP)를 대신하지 않는다. EPS에 이미 이자·세금 등이 반영되므로 여기서 순부채를 다시 차감하지 않는다.</p><p>‘현재가치 대비 할인’ = 1 − 현재 주가 / 현재 모형가치. ‘목표일 가격 여력’ = 모형 가격 / 주가 − 1. 연환산 수익률 = (모형 가격 / 주가)^(1/잔여기간) − 1. 둘은 서로 다른 지표다.</p><p>12%는 비교를 위한 공통 할인율로 개인에게 적합한 요구수익률을 의미하지 않는다. COHR·MU·LITE 등 불확실성이 큰 기업에는 15~20%도 함께 검토할 수 있도록 조절 기능을 제공한다. 할인율 인상 시 저평가 후보가 줄어든다.</p><p>배당·세금·거래비용·원달러 환율을 제외한 USD 주가 수익률이다. 시나리오는 기대수익률이나 확률 가중 목표주가가 아니다. 약세 시나리오가 최대 손실을 뜻하지 않는다.</p></div>
+ <div><h3>정량 결과를 읽는 규칙</h3><ol><li><b>실제 주가:</b> 최초 종가는 Stock Analysis 등으로 확인했고 일일 갱신은 Yahoo Finance 공개 일별 자료를 사용한다. 완료된 정규장 종가만 반영하며 종목별 자료 날짜와 실패 여부를 표시한다.</li><li><b>시장 예상:</b> Stock Analysis가 제공하는 S&P Global 집계의 회계연도별 조정 EPS. 회사 가이던스나 확정 이익이 아니다. 페이지에 공개된 수치만 사용했다.</li><li><b>직접 계산:</b> 종가/EPS로 FY2027E·FY2028E PER 산정. 공급자의 NTM Forward P/E와 기간이 달라 숫자가 다를 수 있다. 회계연도 결산월을 함께 공개했다.</li><li><b>분석 가정:</b> 약세·기준·강세의 EPS와 PER는 이 보고서의 판단. 시장 EPS를 참고하되 성장률을 2년 단순 연장하지 않았다. MU는 고점 이익 정상화, COHR·LITE는 실행·희석 위험을 추가 반영했다.</li><li><b>배수의 근거와 한계:</b> 성장 지속성·현금 창출·사업 분산·고객 집중·경기 순환을 반영해 분석자가 지정했다. 과거 평균이나 동종사 회귀모형으로 검증한 객관적 적정 배수가 아니다. 상세 패널과 계산기에서 가정을 검토해야 한다.</li><li><b>조정이익:</b> 주식보상·인수 무형자산 상각·일회성 비용 등의 제외로 GAAP와 차이가 난다. 제외 항목의 반복성과 실제 희석을 따져야 한다. 최신 실적 원문과 TTM GAAP EPS를 함께 제공했다.</li><li><b>선별 범위:</b> 개별 티커로 언급한 20개 표본의 상대 비교이며 미국 전체 시장에서 가장 저평가된 종목을 입증한 결과가 아니다. 일일 자동 점검은 새로운 종목 추천이나 미래 이익 가정의 자동 재작성 기능이 아니다. REIT와 추가 기업 8개는 전체 평가에 별도 모형으로 포함했다. 같은 EPS 모형을 적용하지 않는다.</li></ol></div>
 </div>
-<details><summary>전체 종목의 시장 EPS와 모형 가정을 한 번에 보기</summary><p class="note">시장 EPS 열은 조정 예상치, 약세·기준·강세 EPS/PER는 분석자의 가정이다. 이 표는 초기 모형 값을 표시하며 위 조절기의 영향을 받지 않는다.</p><div class="table-scroll"><table class="scenario-table" id="assumptions"></table></div></details>
+<details><summary>기존 12개 종목의 시장 EPS와 모형 가정 보기</summary><p class="note">시장 EPS 열은 조정 예상치, 약세·기준·강세 EPS/PER는 분석자의 가정이다. 이 표는 초기 모형 값을 표시하며 위 조절기의 영향을 받지 않는다.</p><div class="table-scroll"><table class="scenario-table" id="assumptions"></table></div></details>
 <details open><summary>최초 리서치 출처와 확인 일자</summary><p class="note">최초 리서치 출처는 2026.10.26 열람. 아래 가격·예상 EPS 출처는 최초 분석의 근거이며, 최신 종가와 실제 재무자료의 기준일·출처는 일일 현황에 표시한다. 사이트는 매일 새로 배포되며 저장한 HTML은 저장 당시 값으로 작동한다.</p><div id="sources" class="source-list"></div><div id="extraSources" class="source-list"></div></details>
-<dl class="glossary"><dt>EPS</dt><dd>주당순이익. 여기서는 시장 전망·모형에 조정 EPS, 실제 이익 확인에는 GAAP EPS도 사용.</dd><dt>PER / P/E</dt><dd>주가 ÷ 연간 EPS. 이익 고점에서는 낮아 보일 수 있어 정상 이익 검증이 필요.</dd><dt>FCF</dt><dd>잉여현금흐름. 회사별 계산 범위가 다를 수 있으며 리스·주식보상·일회성 항목을 별도 확인.</dd><dt>CAPEX / WFE</dt><dd>설비투자 / 웨이퍼 제조 장비 지출. 빅테크의 데이터센터 투자와 반도체 제조사의 장비 투자는 같은 지표가 아님.</dd><dt>시가총액 / EV</dt><dd>주식 가치 / 순부채 등을 포함한 기업가치. 이 보고서는 시가총액과 주당 가치만 계산하며 EV를 계산하지 않음.</dd></dl>
+<dl class="glossary"><dt>EPS</dt><dd>주당순이익. 여기서는 시장 전망·모형에 조정 EPS, 실제 이익 확인에는 GAAP EPS도 사용.</dd><dt>PER / P/E</dt><dd>주가 ÷ 연간 EPS. 이익 고점에서는 낮아 보일 수 있어 정상 이익 검증이 필요.</dd><dt>FCF</dt><dd>잉여현금흐름. 회사별 계산 범위가 다를 수 있으며 리스·주식보상·일회성 항목을 별도 확인.</dd><dt>CAPEX / WFE</dt><dd>설비투자 / 웨이퍼 제조 장비 지출. 빅테크의 데이터센터 투자와 반도체 제조사의 장비 투자는 같은 지표가 아님.</dd><dt>시가총액 / EV</dt><dd>주식 가치 / 순부채 등을 포함한 기업가치. 기존 EPS 표는 주당 가치, SYM·CRWV는 미래 EV에서 순부채·희석을 반영한 주당 가치를 계산. 현재 EV와 미래 EV 가정을 구분.</dd></dl>
 </section>
 <footer class="footer">RESEARCH / 24M · 작성 2026.10.26 · 미국 주식 · 단일 HTML 리서치<br>조건부 투자 아이디어를 비교하는 자료다. ‘저평가’ 표시는 분석 가정에 종속되며 수익 보장·확정 목표가격·개인별 투자 비중 권고가 아니다.</footer>
 </main>
@@ -123,6 +125,7 @@
 'use strict';
 const REPORT=JSON.parse(document.getElementById('reportData').textContent);
 const STOCKS=REPORT.stocks;
+/*__MODEL_FUNCTIONS__*/
 const $=id=>document.getElementById(id);
 const labels={bear:'약세',base:'기준',bull:'강세'};
 const state={scenario:'base',discount:12,shock:0,selected:'NVDA'};
@@ -215,6 +218,7 @@ function init(){
  renderAll();
 }
 init();
+/*__COVERAGE_UI__*/
 /*__DAILY_UI__*/
 
 </script>

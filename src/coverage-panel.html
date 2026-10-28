@@ -1,0 +1,17 @@
+<section class="chapter" id="all-coverage" aria-labelledby="coverageHeading">
+<div class="chapter-head"><span class="chapter-no">02A</span><h2 id="coverageHeading">전체 20개 종목의 정량평가</h2><span class="meta">가격 자동 갱신 · 모형 가정 10.26~10.27</span></div>
+<p class="note">보고서에서 개별 티커로 언급한 모든 기업을 포함한다. 기존 12개 EPS 모형에 SYM·TER·TSLA·DLR·EQIX·CRWV·FLNC·INTC 8개를 추가했다. 목표일은 2028.10.26이며 아래 결과는 배당을 제외한 USD 주가 가치다. REIT의 배당을 포함한 총수익률과 다르다.</p>
+<div class="callout"><b>숫자로 평가했다는 것이 객관적인 저평가를 입증한 것은 아니다.</b> 관측한 종가·실제 EPS와 분석자가 지정한 목표일 매출·마진·주식수·순부채·배수를 구분한다. 미래 가정은 컨센서스가 아니며 자동 수정되지 않는다. 서로 다른 모형의 할인율은 비교 출발점일 뿐 신뢰도 순위가 아니다. 특히 CRWV·SYM·FLNC·TSLA는 조달·상업화 가정에 매우 민감하다.</div>
+<div class="controls">
+<div class="field search"><label for="coverageSearch">전체 종목 검색</label><input id="coverageSearch" type="search" placeholder="예: SYM, REIT, ESS"></div>
+<div class="field"><label for="coverageScenario">전체 평가 시나리오</label><select id="coverageScenario"><option value="base">기준</option><option value="bear">약세</option><option value="bull">강세</option></select></div>
+<div class="field"><label for="coverageDiscount">전체 평가 연 할인율</label><select id="coverageDiscount"><option value="12">12%</option><option value="15">15%</option><option value="20">20%</option></select></div>
+<label class="switch-label"><input type="checkbox" id="coverageOnlyValue">20% 이상 할인만</label>
+</div>
+<p id="coverageCount" class="note" aria-live="polite"></p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="전체 20개 종목 정량평가 비교표"><table class="data-table"><thead><tr><th>종목 / 가정 보기</th><th>섹터 · 모형</th><th>최근 종가 / 날짜</th><th>목표일 모형 가격</th><th>할인 현재가치</th><th>목표일 가격 여력</th><th>현재가치 대비 할인</th><th>조건부 분류</th><th>실적 점검</th></tr></thead><tbody id="coverageRows"></tbody></table></div>
+<p class="note">분류: 가치 대비 가격 할인 20% 이상 ‘저평가 검토’, 10~20% ‘완만한 할인’, 0~10% ‘여유 제한’, 음수 ‘할인 부족’. EV에서 순부채를 빼고 자본가치가 남지 않으면 ‘자본가치 없음’으로 표시한다. 가정과 자료가 오래되거나 조회가 실패한 기업의 분류에는 별도 확인이 필요하다. FLNC처럼 흑자 전환·마진 회복을 요구하는 할인 후보와 현재 이익이 검증된 후보의 신뢰도는 다르다.</p>
+<h3>추가 8개 기업 — 수치·산식·배수 근거를 펼쳐보기</h3>
+<div id="extendedDetails"></div>
+<div class="callout"><b>매일 오전 7시 갱신 범위</b><p>20개 모두 최근 종가, 제공되는 실제 TTM EPS·PER·분기 재무자료, 가격 여력·가치 할인·조건부 분류를 갱신한다. FFO/AFFO 회사 가이던스와 목표일 매출·마진·순부채·주식수·EPS·배수는 검토일에 고정한다. 새 분기 반영 시 재검토를 표시하며 새 공시의 문장이나 REIT 가이던스를 자동 해석·갱신하지 않는다.</p></div>
+</section>
