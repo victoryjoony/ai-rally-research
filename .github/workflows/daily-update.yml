@@ -11,6 +11,8 @@ on:
       - 'tests/**'
       - '.github/workflows/daily-update.yml'
       - 'package.json'
+      - 'data/model-revisions.json'
+      - 'data/risk-review.json'
 permissions:
   contents: write
   pages: write

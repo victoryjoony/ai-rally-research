@@ -45,3 +45,6 @@ renderCoverage();renderExtendedDetails();
 const audit=REPORT.riskAudit;
 $('riskReviewStatus').textContent=audit.lastFullReviewAt?'전체 공시 조사 확인: '+audit.lastFullReviewAt:'전체 공시·의혹 최초 일괄조사 대기 · FLNC 일부 확인·정정 2026.10.28. 가격 갱신과 별도입니다.';
 if(REPORT.view!=='archive'&&location.hash==='#flnc-correction')location.replace('./archive.html#flnc-correction');
+
+const revisions=REPORT.modelRevisions?.entries||[];
+$('modelRevisionEntries').innerHTML=revisions.length?revisions.slice().reverse().filter(e=>VISIBLE.some(s=>s.ticker===e.ticker)).map(e=>'<article class="note"><b>'+esc(e.ticker+' · '+e.reviewedAt)+'</b><p>'+esc(e.reason)+'</p><p>이전: '+esc(JSON.stringify(e.before))+'</p><p>변경: '+esc(JSON.stringify(e.after))+'</p><p>가치 영향: '+esc(JSON.stringify(e.valuationImpact))+'</p><p>'+e.sources.map(u=>'<a target="_blank" rel="noopener noreferrer" href="'+esc(u)+'">공식 근거 ↗</a>').join(' · ')+'</p></article>').join(''):'<p class="note">2026.10.28 자동 재추정 활성화 · 최초 예약 검토 대기. 이 기능으로 변경한 미래 가정은 아직 없습니다. 기존 FLNC 정정은 보관 기록에 유지합니다.</p>';

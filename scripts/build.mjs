@@ -12,6 +12,8 @@ let live={stocks:{},health:{status:'unavailable'},events:[],scheduleKST:'매일 
 try{live=JSON.parse(await fs.readFile(path.join(ROOT,'data/live.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
 const report=structuredClone(baseline);report.baselineAsOf=baseline.asOf;report.live=live;
 report.scope=scope;report.riskAudit=riskAudit;
+report.modelRevisions=JSON.parse(await fs.readFile(path.join(ROOT,'data/model-revisions.json'),'utf8'));
+for(const e of report.modelRevisions.entries){if(!e.ticker||!e.reviewedAt||!e.reason||!e.before||!e.after||!e.valuationImpact||!e.reviewPeriod||!e.sources?.length||e.sources.some(u=>!u.startsWith('https://')))throw new Error('Incomplete model revision record');}
 report.remainingYears=Math.max(.01,(Date.parse(baseline.horizon+'T00:00:00Z')-Date.parse(live.checkedAt||baseline.asOf))/(365.25*86400000));
 const dates=[];
 for(const s of report.stocks){
