@@ -506,6 +506,49 @@
           "multiple": 34
         }
       }
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "sector": "AI 클라우드·기업 소프트웨어",
+      "risk": "매우 높음",
+      "asOf": "2026-10-29",
+      "scenarioReviewedPeriod": "2026-08-31",
+      "gaapEPS": null,
+      "modelKind": "per-share",
+      "metric": "정상화 조정 EPS",
+      "primary": "https://investor.oracle.com/files/content_files/1q27-pressrelease-September_FINAL.pdf",
+      "primaryDate": "2026-09-10",
+      "fact": "FY27 Q1 매출 $19.35B, OCI 매출 $7.4B, 잔여계약 RPO $664B. Q1 영업현금흐름 $23.1B에 금융요소가 있는 고객 선급금 $11.4B가 포함됐고 FCF는 -$5.4B. 회사는 10/28 투자자 행사에서 FY28 하반기 FCF 흑자 전환과 FY29 $30B 이상을 목표로 제시했다.",
+      "anchor": "FY27 회사 조정 EPS 전망 $8.10을 출발점으로 목표일 2028.10 EPS $6/10/15를 가정한다. 기준 $10은 약 23% 누적 성장을 요구하며 회사 FY30 $21+ 목표와 다르다. FY29 FCF 목표 시점은 2년 투자 목표일 이후다.",
+      "rationale": "PER 12/18/24배는 성장·자금 조달 위험에 따른 분석 가정이다. EPS는 주주가치이므로 순부채를 다시 빼지 않는다. 다만 이자와 리스 지급, 신규 주식 발행과 SBC를 미래 EPS·배수에 반영해야 한다. 회사 조정 EPS는 SBC 등을 제외하므로 실제 주주가치보다 낙관적일 수 있다.",
+      "watch": "계약 집중·RPO 매출/현금 전환과 신규 고객 지급 능력, 선급금 의존·CAPEX·데이터센터 리스, 차입·재융자·희석, 2026년 증권소송의 후속 절차. 12월 14일 FY27 Q2 발표 예정.",
+      "riskSources": [
+        "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+        "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx"
+      ],
+      "riskReview": {
+        "asOf": "2026-10-29",
+        "label": "자금조달·공시 위험 확인",
+        "reasons": [
+          "2026 OCI 관련 증권소송에서 원고가 허위·오해 소지가 있는 발언을 주장했고 회사는 항변을 밝혔다. 판결로 위법이 확정됐다는 뜻이 아니다.",
+          "2026.8 말 미개시 데이터센터 리스 약정 $288B는 장기간 미할인 미래지급액으로 현재 순부채와 단순 합산하지 않는다."
+        ]
+      },
+      "models": {
+        "bear": {
+          "perShare": 6,
+          "multiple": 12
+        },
+        "base": {
+          "perShare": 10,
+          "multiple": 18
+        },
+        "bull": {
+          "perShare": 15,
+          "multiple": 24
+        }
+      }
     }
   ]
 }

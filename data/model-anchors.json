@@ -437,6 +437,52 @@
           "multiple": 45
         }
       }
+    },
+    "GEV": {
+      "createdAt": "2026-10-29T14:40:38.247Z",
+      "period": "2026-09-30",
+      "ttmRevenue": 44040000000,
+      "ttmOperatingMargin": 0.06425976385104451,
+      "models": {
+        "bear": {
+          "revenueB": 50,
+          "netMargin": 0.07,
+          "sharesB": 0.28,
+          "multiple": 20
+        },
+        "base": {
+          "revenueB": 65,
+          "netMargin": 0.11,
+          "sharesB": 0.265,
+          "multiple": 28
+        },
+        "bull": {
+          "revenueB": 80,
+          "netMargin": 0.14,
+          "sharesB": 0.25,
+          "multiple": 35
+        }
+      }
+    },
+    "ORCL": {
+      "createdAt": "2026-10-29T14:40:38.247Z",
+      "period": "2026-08-31",
+      "ttmRevenue": 71777000000,
+      "ttmOperatingMargin": 0.34233807487078033,
+      "models": {
+        "bear": {
+          "perShare": 6,
+          "multiple": 12
+        },
+        "base": {
+          "perShare": 10,
+          "multiple": 18
+        },
+        "bull": {
+          "perShare": 15,
+          "multiple": 24
+        }
+      }
     }
   }
 }

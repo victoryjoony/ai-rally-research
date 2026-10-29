@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "lastFullReviewAt": null,
   "status": "initial_full_review_pending",
-  "trackedCount": 26,
+  "trackedCount": 27,
   "scheduleKST": "매일 오전7시 GitHub 서버 · 로컬 예약 중지",
   "partialReviews": [
     {
@@ -83,7 +83,18 @@
         "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
       ],
       "result": "기준 EPS 18→17, PER 23→21. 실적·현금흐름 위험 경고 유지."
+    },
+    {
+      "ticker": "ORCL",
+      "reviewDateKST": "2026-10-29",
+      "scope": "FY27 Q1, 투자자 행사, 10-Q의 선급금·리스·증권소송 초기 검토. 전수조사 아님.",
+      "sources": [
+        "https://investor.oracle.com/files/content_files/1q27-pressrelease-September_FINAL.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+        "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx"
+      ],
+      "result": "계약 집중·RPO 매출/현금 전환과 신규 고객 지급 능력, 선급금 의존·CAPEX·데이터센터 리스, 차입·재융자·희석, 2026년 증권소송의 후속 절차. 12월 14일 FY27 Q2 발표 예정."
     }
   ],
-  "note": "전체26개 의혹 전수조사 미완료. 가격/공시 목록 탐지/규칙 민감도와 직접 문맥 검토를 구분한다."
+  "note": "전체 27개 의혹 전수조사 미완료. 가격/공시 목록 탐지/규칙 민감도와 직접 문맥 검토를 구분한다."
 }

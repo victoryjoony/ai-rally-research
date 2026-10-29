@@ -1,5 +1,33 @@
 {
- "version":1,
- "method":"TTM operating sensitivity; no autonomous semantic guidance interpretation",
- "ciks":{"NVDA":1045810,"AVGO":1730168,"META":1326801,"AMZN":1018724,"COHR":820318,"VRT":1674101,"GOOGL":1652044,"MSFT":789019,"LRCX":707549,"ETN":1551182,"MU":723125,"LITE":1633978,"SYM":1837240,"TER":97210,"TSLA":1318605,"DLR":1297996,"EQIX":1101239,"CRWV":1769628,"FLNC":1868941,"INTC":50863,"CRM":1108524,"CRWD":1535527,"CDNS":813672,"TSM":1046179,"GEV":1996810,"PWR":1050915}
+  "version": 1,
+  "method": "TTM operating sensitivity; no autonomous semantic guidance interpretation",
+  "ciks": {
+    "NVDA": 1045810,
+    "AVGO": 1730168,
+    "META": 1326801,
+    "AMZN": 1018724,
+    "COHR": 820318,
+    "VRT": 1674101,
+    "GOOGL": 1652044,
+    "MSFT": 789019,
+    "LRCX": 707549,
+    "ETN": 1551182,
+    "MU": 723125,
+    "LITE": 1633978,
+    "SYM": 1837240,
+    "TER": 97210,
+    "TSLA": 1318605,
+    "DLR": 1297996,
+    "EQIX": 1101239,
+    "CRWV": 1769628,
+    "FLNC": 1868941,
+    "INTC": 50863,
+    "CRM": 1108524,
+    "CRWD": 1535527,
+    "CDNS": 813672,
+    "TSM": 1046179,
+    "GEV": 1996810,
+    "PWR": 1050915,
+    "ORCL": 1341439
+  }
 }
