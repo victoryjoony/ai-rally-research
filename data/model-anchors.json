@@ -417,6 +417,26 @@
           "multiple": 34
         }
       }
+    },
+    "CDNS": {
+      "createdAt": "2026-10-29T01:39:26.872Z",
+      "period": "2026-09-30",
+      "ttmRevenue": 6132096000,
+      "ttmOperatingMargin": 0.29636946323084307,
+      "models": {
+        "bear": {
+          "perShare": 8.5,
+          "multiple": 25
+        },
+        "base": {
+          "perShare": 11.5,
+          "multiple": 35
+        },
+        "bull": {
+          "perShare": 14,
+          "multiple": 45
+        }
+      }
     }
   }
 }
