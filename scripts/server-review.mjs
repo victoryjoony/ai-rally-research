@@ -42,7 +42,7 @@ for(const s of universe){
   }
   d.scanned=d.scanned.slice(-24);
   if(d.scanned.some(x=>x.date>(s.asOf||research.asOf)&&x.matches?.length))d.unreviewed=true;
- }catch(e){d.error=e.message;if(e.message.includes('HTTP 403')||e.message.includes('HTTP 429'))secUnavailable='SEC 접근 제한: '+e.message;}
+ }catch(e){d.error=e.message;if(!secUnavailable&&(e.message.includes('HTTP 403')||e.message.includes('HTTP 429')))secUnavailable='SEC 접근 제한: '+e.message;}
  const rawModels=structuredClone(s.models||Object.fromEntries(['bear','base','bull'].map(k=>[k,s[k]])));
  if(!anchors.stocks[s.ticker]&&current?.financials?.status==='ok'&&current.financials.ttmRevenue>0&&current.quote?.splitFactor===1){
   anchors.stocks[s.ticker]={createdAt:now,period:current.financials.period,ttmRevenue:current.financials.ttmRevenue,ttmOperatingMargin:current.financials.ttmOperatingMargin,models:rawModels};
