@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-29T14:42:09.857Z",
+  "checkedAt": "2026-10-29T14:45:10.225Z",
   "execution": "GitHub-hosted runner · PC 불필요",
   "method": "공시 목록·문자열 탐지 및 제한된 수치 민감도. AI 정독·감사의견 아님",
   "stocks": {
     "NVDA": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -21,7 +21,7 @@
     },
     "AVGO": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
@@ -37,13 +37,13 @@
     },
     "META": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -53,13 +53,13 @@
     },
     "AMZN": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "held",
@@ -69,13 +69,13 @@
     },
     "COHR": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -85,13 +85,13 @@
     },
     "VRT": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -101,13 +101,13 @@
     },
     "GOOGL": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "held",
@@ -117,13 +117,13 @@
     },
     "MSFT": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -133,13 +133,13 @@
     },
     "LRCX": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -149,29 +149,29 @@
     },
     "ETN": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
-        "status": "held",
-        "reason": "가격·재무 자료 지연",
+        "status": "unchanged",
+        "reason": "비교 기준 이후 새 분기 없음",
         "period": "2026-06-30"
       }
     },
     "MU": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -181,13 +181,13 @@
     },
     "LITE": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -197,13 +197,13 @@
     },
     "SYM": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -213,13 +213,13 @@
     },
     "TER": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -229,13 +229,13 @@
     },
     "TSLA": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -245,13 +245,13 @@
     },
     "DLR": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "held",
@@ -261,13 +261,13 @@
     },
     "EQIX": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -277,13 +277,13 @@
     },
     "CRWV": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -293,13 +293,13 @@
     },
     "FLNC": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -309,13 +309,13 @@
     },
     "INTC": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -325,13 +325,13 @@
     },
     "CRM": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -341,13 +341,13 @@
     },
     "CRWD": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -357,13 +357,13 @@
     },
     "CDNS": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -373,13 +373,13 @@
     },
     "TSM": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "held",
@@ -389,13 +389,13 @@
     },
     "GEV": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -405,13 +405,13 @@
     },
     "PWR": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
@@ -421,13 +421,13 @@
     },
     "ORCL": {
       "disclosure": {
-        "checkedAt": "2026-10-29T14:42:09.857Z",
+        "checkedAt": "2026-10-29T14:45:10.225Z",
         "status": "unavailable",
         "unreviewed": true,
         "documents": [],
         "matches": [],
         "note": "기존 회계·소송 의혹 전수조사와 구분",
-        "error": "SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: SEC 접근 제한: HTTP 403"
+        "error": "SEC 접근 제한: HTTP 403"
       },
       "model": {
         "status": "unchanged",
