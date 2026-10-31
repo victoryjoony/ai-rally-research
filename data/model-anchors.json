@@ -483,6 +483,26 @@
           "multiple": 24
         }
       }
+    },
+    "GOOGL": {
+      "createdAt": "2026-10-31T01:27:49.415Z",
+      "period": "2026-09-30",
+      "ttmRevenue": 471098000000,
+      "ttmOperatingMargin": 0.33321304696687315,
+      "models": {
+        "bear": [
+          10,
+          16
+        ],
+        "base": [
+          17,
+          21
+        ],
+        "bull": [
+          22,
+          26
+        ]
+      }
     }
   }
 }
