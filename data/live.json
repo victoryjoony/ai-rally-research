@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-18T03:26:05.830Z",
+  "checkedAt": "2026-11-19T02:59:25.886Z",
   "scheduleKST": "매일 오전 7:00 (GitHub 실행 지연 가능)",
   "source": "Yahoo Finance 공개 API · 비공식, 서비스 보장 없음",
   "stocks": {
     "NVDA": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 155.46,
-        "date": "2026-11-17",
+        "close": 150.96,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 156.13999938964844,
-        "changePct": -0.43550190754408913,
+        "previousClose": 155.4600067138672,
+        "changePct": -2.8946351509443247,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/NVDA/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -38,7 +38,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/NVDA/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -56,18 +56,18 @@
       }
     },
     "AVGO": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 341.6,
-        "date": "2026-11-17",
+        "close": 354.05,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 333.3999938964844,
-        "changePct": 2.459511804783432,
+        "previousClose": 341.6000061035156,
+        "changePct": 3.6446081577880207,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/AVGO/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -89,7 +89,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/AVGO/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -107,18 +107,18 @@
       }
     },
     "META": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 618.87,
-        "date": "2026-11-17",
+        "close": 616.38,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 626.4099731445312,
-        "changePct": -1.2036810316881863,
+        "previousClose": 618.8699951171875,
+        "changePct": -0.40234463684145627,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/META/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -140,7 +140,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/META/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -160,18 +160,18 @@
       }
     },
     "AMZN": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 257.89,
-        "date": "2026-11-17",
+        "close": 267.74,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 257.75,
-        "changePct": 0.054321881062069366,
+        "previousClose": 257.8900146484375,
+        "changePct": 3.819448224610489,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/AMZN/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -193,7 +193,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/AMZN/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -212,18 +212,18 @@
       }
     },
     "COHR": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 210.86,
-        "date": "2026-11-17",
+        "close": 212.84,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 203.42999267578125,
-        "changePct": 3.652366023731801,
+        "previousClose": 210.86000061035156,
+        "changePct": 0.9390096375831325,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/COHR/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -245,7 +245,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/COHR/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -265,18 +265,18 @@
       }
     },
     "VRT": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 190.37,
-        "date": "2026-11-17",
+        "close": 194.48,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 188.6699981689453,
-        "changePct": 0.9010425423971791,
+        "previousClose": 190.3699951171875,
+        "changePct": 2.1589539926297308,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/VRT/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -298,7 +298,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/VRT/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -317,18 +317,18 @@
       }
     },
     "GOOGL": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 280.2,
-        "date": "2026-11-17",
+        "close": 282.44,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 283.7200012207031,
-        "changePct": -1.2406559278609675,
+        "previousClose": 280.20001220703125,
+        "changePct": 0.7994254592394334,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/GOOGL/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -350,7 +350,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/GOOGL/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -370,18 +370,18 @@
       }
     },
     "MSFT": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 506.24,
-        "date": "2026-11-17",
+        "close": 508.29,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 517.989990234375,
-        "changePct": -2.268383602293833,
+        "previousClose": 506.239990234375,
+        "changePct": 0.4049498953248909,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/MSFT/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -403,7 +403,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/MSFT/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -421,18 +421,18 @@
       }
     },
     "LRCX": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 210.69,
-        "date": "2026-11-17",
+        "close": 211.67,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 210.8300018310547,
-        "changePct": -0.06640392184819044,
+        "previousClose": 210.69000244140625,
+        "changePct": 0.4651363216968907,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/LRCX/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -454,7 +454,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/LRCX/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -472,18 +472,18 @@
       }
     },
     "ETN": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 337.11,
-        "date": "2026-11-17",
+        "close": 338.34,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 336.8800048828125,
-        "changePct": 0.06826777054635969,
+        "previousClose": 337.1099853515625,
+        "changePct": 0.36486934228465717,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/ETN/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -498,14 +498,14 @@
         "fcfProxy": 1034000000,
         "ttmEPS": 10.01,
         "epsMethod": "공급자 TTM 희석 EPS",
-        "ttmRevenue": 31984000000,
-        "ttmOperatingMargin": 0.17318034017008505,
+        "ttmRevenue": null,
+        "ttmOperatingMargin": null,
         "shares": 388500000,
         "source": "Yahoo Finance 공개 재무 시계열",
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/ETN/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -524,18 +524,18 @@
       }
     },
     "MU": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 712.42,
-        "date": "2026-11-17",
+        "close": 705.27,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 719.02001953125,
-        "changePct": -0.9179211206659432,
+        "previousClose": 712.4199829101562,
+        "changePct": -1.0036163429469558,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/MU/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -557,7 +557,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/MU/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -575,18 +575,18 @@
       }
     },
     "LITE": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 559.97,
-        "date": "2026-11-17",
+        "close": 551.07,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 546,
-        "changePct": 2.558602692880041,
+        "previousClose": 559.969970703125,
+        "changePct": -1.5893644024751907,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/LITE/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -608,7 +608,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/LITE/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -628,18 +628,18 @@
       }
     },
     "SYM": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 33.06,
-        "date": "2026-11-17",
+        "close": 33.79,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 34.279998779296875,
-        "changePct": -3.558919047402842,
+        "previousClose": 33.060001373291016,
+        "changePct": 2.208104996710891,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/SYM/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -661,7 +661,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/SYM/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -680,18 +680,18 @@
       }
     },
     "TER": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 234.18,
-        "date": "2026-11-17",
+        "close": 235.21,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 231.89999389648438,
-        "changePct": 0.9831819056944857,
+        "previousClose": 234.17999267578125,
+        "changePct": 0.43983861572323146,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/TER/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -713,7 +713,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/TER/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -731,18 +731,18 @@
       }
     },
     "TSLA": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 380.11,
-        "date": "2026-11-17",
+        "close": 383.72,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 379.739990234375,
-        "changePct": 0.09743380384013012,
+        "previousClose": 380.1099853515625,
+        "changePct": 0.9497292910634059,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/TSLA/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -764,7 +764,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/TSLA/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -783,18 +783,18 @@
       }
     },
     "DLR": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 176.53,
-        "date": "2026-11-17",
+        "close": 178.31,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 178.77000427246094,
-        "changePct": -1.253009699406904,
+        "previousClose": 176.52999877929688,
+        "changePct": 1.0083265119841034,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/DLR/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -816,7 +816,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/DLR/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -836,18 +836,18 @@
       }
     },
     "EQIX": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 1034.83,
-        "date": "2026-11-17",
+        "close": 1036.5,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 1043.06005859375,
-        "changePct": -0.7890343869707994,
+        "previousClose": 1034.8299560546875,
+        "changePct": 0.16138341720215443,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/EQIX/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -869,7 +869,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/EQIX/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -889,18 +889,18 @@
       }
     },
     "CRWV": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 49.89,
-        "date": "2026-11-17",
+        "close": 47.83,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 49.880001068115234,
-        "changePct": 0.02004475003829498,
+        "previousClose": 49.88999938964844,
+        "changePct": -4.12907914170304,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/CRWV/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -922,7 +922,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/CRWV/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -943,18 +943,18 @@
       }
     },
     "FLNC": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 4.08,
-        "date": "2026-11-17",
+        "close": 4.03,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 4.289999961853027,
-        "changePct": -4.8951058278393305,
+        "previousClose": 4.079999923706055,
+        "changePct": -1.2254832066831978,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/FLNC/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -976,7 +976,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/FLNC/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -997,18 +997,18 @@
       }
     },
     "INTC": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 55.17,
-        "date": "2026-11-17",
+        "close": 54.67,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 55.470001220703125,
-        "changePct": -0.5408383723738641,
+        "previousClose": 55.16999816894531,
+        "changePct": -0.9062896802513265,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/INTC/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -1030,7 +1030,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/INTC/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -1050,18 +1050,18 @@
       }
     },
     "CRM": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 194.52,
-        "date": "2026-11-17",
+        "close": 190.4,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 214.8300018310547,
-        "changePct": -9.453985656326447,
+        "previousClose": 194.52000427246094,
+        "changePct": -2.1180394229303734,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/CRM/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -1083,7 +1083,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/CRM/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -1101,18 +1101,18 @@
       }
     },
     "CRWD": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 219.58,
-        "date": "2026-11-17",
+        "close": 237.03,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 223.2100067138672,
-        "changePct": -1.6262733630333148,
+        "previousClose": 219.5800018310547,
+        "changePct": 7.946988251538611,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/CRWD/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -1134,7 +1134,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/CRWD/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -1153,18 +1153,18 @@
       }
     },
     "CDNS": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 306.97,
-        "date": "2026-11-17",
+        "close": 305.82,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 309.42999267578125,
-        "changePct": -0.7950074373222371,
+        "previousClose": 306.9700012207031,
+        "changePct": -0.374627452816656,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/CDNS/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -1186,7 +1186,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/CDNS/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -1205,20 +1205,20 @@
       }
     },
     "TSM": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [
         "실적: 최근 분기 매출 없음"
       ],
       "quote": {
-        "close": 359.69,
-        "date": "2026-11-17",
+        "close": 362.62,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 373.45001220703125,
-        "changePct": -3.6845653543577384,
+        "previousClose": 359.69000244140625,
+        "changePct": 0.8145882998954246,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/TSM/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -1246,18 +1246,18 @@
       }
     },
     "GEV": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 779.91,
-        "date": "2026-11-17",
+        "close": 772.22,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 763.5700073242188,
-        "changePct": 2.1399433795956213,
+        "previousClose": 779.9099731445312,
+        "changePct": -0.9860115534105596,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/GEV/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -1279,7 +1279,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/GEV/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -1297,18 +1297,18 @@
       }
     },
     "PWR": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 598.53,
-        "date": "2026-11-17",
+        "close": 602.6,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 585.9000244140625,
-        "changePct": 2.1556587056713816,
+        "previousClose": 598.530029296875,
+        "changePct": 0.6799903246030414,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/PWR/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -1330,7 +1330,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/PWR/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
@@ -1349,18 +1349,18 @@
       }
     },
     "ORCL": {
-      "checkedAt": "2026-11-18T03:26:05.830Z",
+      "checkedAt": "2026-11-19T02:59:25.886Z",
       "errors": [],
       "quote": {
-        "close": 115,
-        "date": "2026-11-17",
+        "close": 113.89,
+        "date": "2026-11-18",
         "currency": "USD",
-        "previousClose": 119.08999633789062,
-        "changePct": -3.4343743921917635,
+        "previousClose": 115,
+        "changePct": -0.9652179220448365,
         "splitFactor": 1,
         "source": "Yahoo Finance 공개 일별 시세",
         "sourceUrl": "https://finance.yahoo.com/quote/ORCL/history/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z",
+        "fetchedAt": "2026-11-19T02:59:25.886Z",
         "status": "ok"
       },
       "financials": {
@@ -1382,7 +1382,7 @@
         "currency": "USD",
         "status": "ok",
         "sourceUrl": "https://finance.yahoo.com/quote/ORCL/financials/",
-        "fetchedAt": "2026-11-18T03:26:05.830Z"
+        "fetchedAt": "2026-11-19T02:59:25.886Z"
       },
       "impact": {
         "review": true,
